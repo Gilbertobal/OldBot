@@ -1,0 +1,16 @@
+OldBot version: v1.2
+--------------------
+What's new?
+--------------------
+Version 1.2:
+- All scripts optimzed.
+- Added Logoff if Battle window changes function.
+- Added Move item to backpack function(with mouse buttons).
+- Added Move item to to ground function(with mouse buttons).
+- Fixed Keep tibia client focused function.
+--------------------
+Version 1.1:
+- Added Reload Button.
+- Fixed Hide Tibia client function.
+- Fixed Transparent OldBot function.
+- Added OldBot version on Login screen.
