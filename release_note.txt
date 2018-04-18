@@ -1,9 +1,10 @@
-OldBot version: v1.3
+OldBot version: v1.2
 --------------------
 What's new?
 --------------------
 Version 1.3:
-- Added "Uncheck all" checkbox.
+- Optimized scripts to use less CPU/less FPS drop(ImageSearch).
+- Added "Uncheck All" button.
 - Fixed Move item to backpack function(with mouse buttons) for Tibia 10.
 - Fixed Move item to to ground function(with mouse buttons) for Tibia 10.
 --------------------
