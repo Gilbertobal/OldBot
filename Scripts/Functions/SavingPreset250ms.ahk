@@ -1,0 +1,27 @@
+﻿#NoTrayIcon
+#NoEnv
+
+Text = Saving...
+
+Start := A_TickCount
+
+
+
+loop
+
+{
+
+   mousegetpos, x, y
+
+   tooltip, %Text%, (x + 10), (y + 10), 1
+   BlockInput, On
+
+   If ((A_TickCount - Start) > 250) {
+   	BlockInput, Off
+      Break
+
+   }
+
+}
+
+tooltip
