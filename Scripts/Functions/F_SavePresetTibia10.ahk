@@ -29,6 +29,8 @@ SavePresetTibia10:     ; Save configs in settings.ini file
     IniWrite, %PressHotkeyWhenFullManaHotkeyTibia10%, settings.ini, settings, PressHotkeyWhenFullManaHotkeyTibia10
     IniWrite, %RightClickHold%, settings.ini, settings, RightClickHold
     IniWrite, %RightClickHoldDelay%, settings.ini, settings, RightClickHoldDelay
+    IniWrite, %Heal25Tibia10%, settings.ini, settings, Heal25Tibia10
+    IniWrite, %Heal25HotkeyTibia10%, settings.ini, settings, Heal25HotkeyTibia10
     IniWrite, %AntiIdleTibia10%, settings.ini, settings, AntiIdleTibia10
     IniWrite, %AntiIdleDelayTibia10%, settings.ini, settings, AntiIdleDelayTibia10
     IniWrite, %AntiIdleBackgroundTibia10%, settings.ini, settings, AntiIdleBackgroundTibia10
@@ -38,10 +40,14 @@ SavePresetTibia10:     ; Save configs in settings.ini file
     IniWrite, %GamingMode%, settings.ini, settings, GamingMode
     IniWrite, %ReopenTibia10Client%, settings.ini, settings, ReopenTibia10Client
     IniWrite, %Tibia10Directory%, settings.ini, settings, Tibia10Directory
+    ; Tab 2/>
+    ; <Tab 3
     IniWrite, %MoveItemToBackpackTibia10%, settings.ini, settings, MoveItemToBackpackTibia10
     IniWrite, %MoveItemToGroundTibia10%, settings.ini, settings, MoveItemToGroundTibia10
     IniWrite, %MoveItemToBackpackHotkeyTibia10%, settings.ini, settings, MoveItemToBackpackHotkeyTibia10
     IniWrite, %MoveItemToGroundHotkeyTibia10%, settings.ini, settings, MoveItemToGroundHotkeyTibia10
+    IniWrite, %BPPosXTibia10%, settings.ini, settings, BPPosXTibia10
+    IniWrite, %BPPosYTibia10%, settings.ini, settings, BPPosYTibia10
     IniWrite, %CharPosXTibia10%, settings.ini, settings, CharPosXTibia10
     IniWrite, %CharPosYTibia10%, settings.ini, settings, CharPosYTibia10
     IniWrite, %RemapKey1Tibia10%, settings.ini, settings, RemapKey1Tibia10
@@ -52,27 +58,25 @@ SavePresetTibia10:     ; Save configs in settings.ini file
     IniWrite, %RemapKey2RemapTibia10%, settings.ini, settings, RemapKey2RemapTibia10
     IniWrite, %RemapKey3RemapTibia10%, settings.ini, settings, RemapKey3RemapTibia10
     IniWrite, %RemapKey4RemapTibia10%, settings.ini, settings, RemapKey4RemapTibia10
-    ; Tab 2/>
-    ; <Tab 3
-    IniWrite, %EquipRoHTibia10%, settings.ini, settings, EquipRoHTibia10
-    IniWrite, %EquipLifeRingTibia10%, settings.ini, settings, EquipLifeRingTibia10
-    IniWrite, %EquipTimeRingTibia10%, settings.ini, settings, EquipTimeRingTibia10
-    IniWrite, %EquipDwarvenRingTibia10%, settings.ini, settings, EquipDwarvenRingTibia10
-    IniWrite, %EquipSSATibia10%, settings.ini, settings, EquipSSATibia10
-    IniWrite, %DefaultRingTibia10%, settings.ini, settings, DefaultRingTibia10
-    IniWrite, %DefaultAmuletTibia10%, settings.ini, settings, DefaultAmuletTibia10
-    IniWrite, %DefaultSupportSpellTibia10%, settings.ini, settings, DefaultSupportSpellTibia10
-    IniWrite, %DefaultHasteSpellTibia10%, settings.ini, settings, DefaultHasteSpellTibia10
-    IniWrite, %EquipLifeRingHotkeyTibia10%, settings.ini, settings, EquipLifeRingHotkeyTibia10
-    IniWrite, %ShiftEquipLifeRingTibia10%, settings.ini, settings, ShiftEquipLifeRingTibia10
-    IniWrite, %EquipRoHHotkeyTibia10%, settings.ini, settings, EquipRoHHotkeyTibia10
-    IniWrite, %ShiftEquipRoHTibia10%, settings.ini, settings, ShiftEquipRoHTibia10
-    IniWrite, %EquipTimeRingHotkeyTibia10%, settings.ini, settings, EquipTimeRingHotkeyTibia10
-    IniWrite, %ShiftEquipTimeRingTibia10%, settings.ini, settings, ShiftEquipTimeRingTibia10
-    IniWrite, %EquipDwarvenRingHotkeyTibia10%, settings.ini, settings, EquipDwarvenRingHotkeyTibia10
-    IniWrite, %ShiftEquipDwarvenRingTibia10%, settings.ini, settings, ShiftEquipDwarvenRingTibia10
-    IniWrite, %EquipSSAHotkeyTibia10%, settings.ini, settings, EquipSSAHotkeyTibia10
-    IniWrite, %ShiftEquipSSATibia10%, settings.ini, settings, ShiftEquipSSATibia10
+    IniWrite, %CharPosYTibia10%, settings.ini, settings, CharPosYTibia10
+    IniWrite, %HotkeyComboTibia10%, settings.ini, settings, HotkeyComboTibia10
+    IniWrite, %HotkeyComboHotkey1Tibia10%, settings.ini, settings, HotkeyComboHotkey1Tibia10
+    IniWrite, %HotkeyComboHotkey2Tibia10%, settings.ini, settings, HotkeyComboHotkey2Tibia10
+    IniWrite, %HotkeyComboHotkey3Tibia10%, settings.ini, settings, HotkeyComboHotkey3Tibia10
+    IniWrite, %ClickOnPosXTibia10%, settings.ini, settings, ClickOnPosXTibia10
+    IniWrite, %ClickOnPosYTibia10%, settings.ini, settings, ClickOnPosYTibia10
+    IniWrite, %Sleep1Tibia10%, settings.ini, settings, Sleep1Tibia10
+    IniWrite, %Sleep2Tibia10%, settings.ini, settings, Sleep2Tibia10
+    ; Tab 3/>
+    ; <Tab 4
+    IniWrite, %RingRefillTibia10%, settings.ini, settings, RingRefillTibia10
+    IniWrite, %RingToRefillTibia10%, settings.ini, settings, RingToRefillTibia10
+    IniWrite, %RingRefillHotkeyTibia10%, settings.ini, settings, RingRefillHotkeyTibia10
+    IniWrite, %ShiftRingRefillTibia10%, settings.ini, settings, ShiftRingRefillTibia10
+    IniWrite, %AmuletRefillTibia10%, settings.ini, settings, AmuletRefillTibia10
+    IniWrite, %AmuletToRefillTibia10%, settings.ini, settings, AmuletToRefillTibia10
+    IniWrite, %AmuletRefillHotkeyTibia10%, settings.ini, settings, AmuletRefillHotkeyTibia10
+    IniWrite, %ShiftAmuletRefillTibia10%, settings.ini, settings, ShiftAmuletRefillTibia10
     IniWrite, %RenewUtamoVitaTibia10%, settings.ini, settings, RenewUtamoVitaTibia10
     IniWrite, %RenewUtaniHurTibia10%, settings.ini, settings, RenewUtaniHurTibia10
     IniWrite, %RenewUtaniGranHurTibia10%, settings.ini, settings, RenewUtaniGranHurTibia10
@@ -88,13 +92,13 @@ SavePresetTibia10:     ; Save configs in settings.ini file
     IniWrite, %ShiftUtamoTempoSanTibia10%, settings.ini, settings, ShiftUtamoTempoSanTibia10
     IniWrite, %UtamoVitaHotkeyTibia10%, settings.ini, settings, UtamoVitaHotkeyTibia10
     IniWrite, %ShiftUtamoVitaTibia10%, settings.ini, settings, ShiftUtamoVitaTibia10
-    ; Tab 3/>
-    ; <Tab 4
-
     ; Tab 4/>
     ; <Tab 5
-    IniWrite, %TransparentOldBotTibia10%, settings.ini, settings, TransparentOldBotTibia10
+
     ; Tab 5/>
+    ; <Tab 6
+    IniWrite, %TransparentOldBotTibia10%, settings.ini, settings, TransparentOldBotTibia10
+    ; Tab 6/>
     
     Return
 }

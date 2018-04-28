@@ -31,12 +31,10 @@ CloseScriptsTibia10:
     Process, Close, 18. Login 1 Hotkey Tibia 10.exe
     Process, Close, 18. Login 2 Hotkey Tibia 10.exe
     Process, Close, 19. Renew Support Spell 1 Tibia 10.exe
-    Process, Close, 20. Move item to backpack 1 Tibia 10.exe
-    Process, Close, 20. Move item to backpack 2 Tibia 10.exe
-    Process, Close, 20. Move item to backpack 3 Tibia 10.exe
-    Process, Close, 21. Move item to ground 1 Tibia 10.exe
-    Process, Close, 21. Move item to ground 2 Tibia 10.exe
-    Process, Close, 21. Move item to ground 3 Tibia 10.exe
+    Process, Close, 20. Move item to backpack Tibia 10.exe
+    Process, Close, 21. Move item to ground Tibia 10.exe
     Process, Close, 22. Logoff if battle window changes Tibia 10.exe
+    Process, Close, 23. Press Hotkey when health is below 25 percent Tibia 10.exe
+    Process, Close, 24. Hotkey Combo Tibia 10.exe
     Return
 }

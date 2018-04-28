@@ -9,11 +9,17 @@ StartScriptsTibia10:
     GuiControlGet, LoginHotkey1Tibia10
     If (LoginHotkey1Tibia10 = 1)
         {
+        IniWrite, %AccountNameReconnectTibia10%, settings.ini, settings, AccountNameReconnectTibia10
+        IniWrite, %PasswordReconnectTibia10%, settings.ini, settings, PasswordReconnectTibia10
+        IniWrite, %TimesToPressDownTibia10%, settings.ini, settings, TimesToPressDownTibia10
         Run, %A_ScriptDir%/Scripts/18. Login 1 Hotkey Tibia 10.exe
         }
         GuiControlGet, LoginHotkey2Tibia10
     If (LoginHotkey2Tibia10 = 1)
         {
+        IniWrite, %AccountNameReconnect2Tibia10%, settings.ini, settings, AccountNameReconnect2Tibia10
+        IniWrite, %PasswordReconnect2Tibia10%, settings.ini, settings, PasswordReconnect2Tibia10
+        IniWrite, %TimesToPressDown2Tibia10%, settings.ini, settings, TimesToPressDown2Tibia10
         Run, %A_ScriptDir%/Scripts/18. Login 2 Hotkey Tibia 10.exe
         }
     GuiControlGet, AutoReconnectTibia10
@@ -21,10 +27,7 @@ StartScriptsTibia10:
         {
         IniWrite, %AccountNameReconnectTibia10%, settings.ini, settings, AccountNameReconnectTibia10
         IniWrite, %PasswordReconnectTibia10%, settings.ini, settings, PasswordReconnectTibia10
-        IniWrite, %AccountNameReconnect2Tibia10%, settings.ini, settings, AccountNameReconnect2Tibia10
-        IniWrite, %PasswordReconnect2Tibia10%, settings.ini, settings, PasswordReconnect2Tibia10
         IniWrite, %TimesToPressDownTibia10%, settings.ini, settings, TimesToPressDownTibia10
-        IniWrite, %TimesToPressDown2Tibia10%, settings.ini, settings, TimesToPressDown2Tibia10
         Run, %A_ScriptDir%/Scripts/Functions/StartingScript.ahk
         Run, %A_ScriptDir%/Scripts/1. Auto Reconnect Tibia 10.exe
         }
@@ -91,6 +94,12 @@ StartScriptsTibia10:
         IniWrite, %RightClickHoldDelay%, settings.ini, settings, RightClickHoldDelay
         Run, %A_ScriptDir%/Scripts/17. Right Click Hold.exe
         }
+    GuiControlGet, Heal25Tibia10
+    If (Heal25Tibia10 = 1)
+        {
+        IniRead, Heal25HotkeyTibia10, settings.ini, settings, Heal25HotkeyTibia10
+        Run, %A_ScriptDir%/Scripts/23. Press Hotkey when health is below 25 percent Tibia 10.exe
+        }
     ; Tab 1 />
     ; < Tab 2
     GuiControlGet, ReopenTibia10Client
@@ -99,6 +108,8 @@ StartScriptsTibia10:
         IniWrite, %Tibia10Directory%, settings.ini, settings, Tibia10Directory
         Run, %A_ScriptDir%/Scripts/7. Reopen Tibia 10 Client.exe   
         }
+    ; Tab 2 />
+    ; < Tab 3
     GuiControlGet, MoveItemToBackpackTibia10
     If (MoveItemToBackpackTibia10 = 1)
         {
@@ -128,43 +139,72 @@ StartScriptsTibia10:
         IniWrite, %RemapKey4RemapTibia10%, settings.ini, settings, RemapKey4RemapTibia10
         Run, %A_ScriptDir%/Scripts/0. Gaming Mode.exe       
         }
-    ; Tab 2 />
-    ; < Tab 3
-    GuiControlGet, EquipLifeRingTibia10
-    If (EquipLifeRingTibia10 = 1)
+    GuiControlGet, HotkeyComboTibia10
+    If (HotkeyComboTibia10 = 1)
         {
-        IniWrite, %EquipLifeRingHotkeyTibia10%, settings.ini, settings, EquipLifeRingHotkeyTibia10
-        IniWrite, %ShiftEquipLifeRingTibia10%, settings.ini, settings, ShiftEquipLifeRingTibia10
-        Run, %A_ScriptDir%/Scripts/8. Auto Equip Life Ring Tibia 10 .exe 
+        IniWrite, %HotkeyComboHotkey1Tibia10%, settings.ini, settings, HotkeyComboHotkey1Tibia10
+        IniWrite, %HotkeyComboHotkey2Tibia10%, settings.ini, settings, HotkeyComboHotkey2Tibia10
+        IniWrite, %HotkeyComboHotkey3Tibia10%, settings.ini, settings, HotkeyComboHotkey3Tibia10
+        IniWrite, %ClickOnPosXTibia10%, settings.ini, settings, ClickOnPosXTibia10
+        IniWrite, %ClickOnPosYTibia10%, settings.ini, settings, ClickOnPosYTibia10
+        IniWrite, %Sleep1Tibia10%, settings.ini, settings, Sleep1Tibia10
+        IniWrite, %Sleep2Tibia10%, settings.ini, settings, Sleep2Tibia10
+            If (HotkeyComboHotkey1Tibia10 = "None")
+            {
+            MsgBox, Hotkey 1 must be chosen to run Hotkey Combo, please select one and try again.
+            }   
+            If (HotkeyComboHotkey1Tibia10 != "None")
+            {
+            Run, %A_ScriptDir%/Scripts/24. Hotkey Combo Tibia 10.exe   
+            }   
         }
-    GuiControlGet, EquipRoHTibia10
-    If (EquipRoHTibia10 = 1)
+    ; Tab 3 />
+    
+    ; < Tab 4
+    GuiControlGet, RingRefillTibia10
+    If (RingRefillTibia10 = 1)
         {
-        IniWrite, %EquipRoHHotkeyTibia10%, settings.ini, settings, EquipRoHHotkeyTibia10
-        IniWrite, %ShiftEquipRoHTibia10%, settings.ini, settings, ShiftEquipRoHTibia10
-        Run, %A_ScriptDir%/Scripts/9. Auto Equip Ring of Healing Tibia 10 .exe       
+            If (RingToRefillTibia10 = "None")
+            {
+            }
+            If (RingToRefillTibia10 = "Life Ring")
+            {
+            IniWrite, %RingRefillHotkeyTibia10%, settings.ini, settings, RingRefillHotkeyTibia10
+            IniWrite, %ShiftRingRefillTibia10%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/8. Auto Equip Life Ring Tibia 10.exe      
+            }
+            If (RingToRefillTibia10 = "Ring of Healing")
+            {
+            IniWrite, %RingRefillHotkeyTibia10%, settings.ini, settings, RingRefillHotkeyTibia10
+            IniWrite, %ShiftRingRefillTibia10%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/9. Auto Equip Ring of Healing Tibia 10.exe      
+            }
+            If (RingToRefillTibia10 = "Time Ring")
+            {
+            IniWrite, %RingRefillHotkeyTibia10%, settings.ini, settings, RingRefillHotkeyTibia10
+            IniWrite, %ShiftRingRefillTibia10%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/10. Auto Equip Time Ring Tibia 10.exe      
+            }
+            If (RingToRefillTibia10 = "Dwarven Ring")
+            {
+            IniWrite, %RingRefillHotkeyTibia10%, settings.ini, settings, RingRefillHotkeyTibia10
+            IniWrite, %ShiftRingRefillTibia10%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/11. Auto Equip Dwarven Ring Tibia 10.exe      
+            }
         }
-    GuiControlGet, EquipTimeRingTibia10
-    If (EquipTimeRingTibia10 = 1)
+    GuiControlGet, AmuletRefillTibia10
+    If (AmuletRefillTibia10 = 1)
         {
-        IniWrite, %EquipTimeRingHotkeyTibia10%, settings.ini, settings, EquipTimeRingHotkeyTibia10
-        IniWrite, %ShiftEquipTimeRingTibia10%, settings.ini, settings, ShiftEquipTimeRingTibia10
-        Run, %A_ScriptDir%/Scripts/10. Auto Equip Time Ring Tibia 10 .exe       
-        }
-    GuiControlGet, EquipDwarvenRingTibia10
-    If (EquipDwarvenRingTibia10 = 1)
-        {
-        IniWrite, %EquipDwarvenRingHotkeyTibia10%, settings.ini, settings, EquipDwarvenRingHotkeyTibia10
-        IniWrite, %ShiftEquipDwarvenRingTibia10%, settings.ini, settings, ShiftEquipDwarvenRingTibia10
-        Run, %A_ScriptDir%/Scripts/11. Auto Equip Dwarven Ring Tibia 10 .exe       
-        }
-    GuiControlGet, EquipSSATibia10
-    If (EquipSSATibia10 = 1)
-        {
-        IniWrite, %EquipSSAHotkeyTibia10%, settings.ini, settings, EquipSSAHotkeyTibia10
-        IniWrite, %ShiftEquipSSATibia10%, settings.ini, settings, ShiftEquipSSATibia10
-        Run, %A_ScriptDir%/Scripts/12. Auto Equip Stone Skin Amulet Tibia 10 .exe       
-        }
+            If (AmuletToRefillTibia10 = "None")
+            {
+            }
+            If (AmuletToRefillTibia10 = "Stone Skin Amulet")
+            {
+            IniWrite, %AmuletRefillHotkeyTibia10%, settings.ini, settings, AmuletRefillHotkeyTibia10
+            IniWrite, %ShiftAmuletRefillTibia10%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/12. Auto Equip Stone Skin Amulet Tibia 10.exe      
+            }
+       }
     GuiControlGet, RenewUtaniHurTibia10
     If (RenewUtaniHurTibia10 = 1)
         {
@@ -202,13 +242,13 @@ StartScriptsTibia10:
         }
 
         
-    ; Tab 3/>
-    ; <Tab 4
-
     ; Tab 4/>
     ; <Tab 5
-    
+
     ; Tab 5/>
+    ; <Tab 6
+    
+    ; Tab 6/>
 
     Return
 } ; StartScripts

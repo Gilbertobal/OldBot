@@ -9,24 +9,25 @@ StartScriptsTibia11:
     GuiControlGet, LoginHotkey1Tibia11
     If (LoginHotkey1Tibia11 = 1)
         {
+        IniWrite, %AccountNameReconnect2Tibia11%, settings.ini, settings, AccountNameReconnect2Tibia11
+        IniWrite, %PasswordReconnect2Tibia11%, settings.ini, settings, PasswordReconnect2Tibia11
+        IniWrite, %TimesToPressDown2Tibia11%, settings.ini, settings, TimesToPressDown2Tibia11
         Run, %A_ScriptDir%/Scripts/18. Login 1 Hotkey Tibia 11.exe
         }
         GuiControlGet, LoginHotkey2Tibia11
     If (LoginHotkey2Tibia11 = 1)
         {
+        IniWrite, %AccountNameReconnect2Tibia11%, settings.ini, settings, AccountNameReconnect2Tibia11
+        IniWrite, %PasswordReconnect2Tibia11%, settings.ini, settings, PasswordReconnect2Tibia11
+        IniWrite, %TimesToPressDown2Tibia11%, settings.ini, settings, TimesToPressDown2Tibia11
         Run, %A_ScriptDir%/Scripts/18. Login 2 Hotkey Tibia 11.exe
         }
-    GuiControlGet, AntiIdleTibia11
-    GuiControlGet, AntiIdleBackgroundTibia11
     GuiControlGet, AutoReconnectTibia11
     If (AutoReconnectTibia11 = 1)
         {
         IniWrite, %AccountNameReconnectTibia11%, settings.ini, settings, AccountNameReconnectTibia11
         IniWrite, %PasswordReconnectTibia11%, settings.ini, settings, PasswordReconnectTibia11
-        IniWrite, %AccountNameReconnect2Tibia11%, settings.ini, settings, AccountNameReconnect2Tibia11
-        IniWrite, %PasswordReconnect2Tibia11%, settings.ini, settings, PasswordReconnect2Tibia11
         IniWrite, %TimesToPressDownTibia11%, settings.ini, settings, TimesToPressDownTibia11
-        IniWrite, %TimesToPressDown2Tibia11%, settings.ini, settings, TimesToPressDown2Tibia11
         Run, %A_ScriptDir%/Scripts/1. Auto Reconnect Tibia 11.exe
         }
     GuiControlGet, AntiIdleTibia11
@@ -98,6 +99,12 @@ StartScriptsTibia11:
         IniWrite, %RightClickHoldDelay%, settings.ini, settings, RightClickHoldDelay
         Run, %A_ScriptDir%/Scripts/17. Right Click Hold.exe
         }
+        GuiControlGet, Heal25Tibia11
+    If (Heal25Tibia11 = 1)
+        {
+        IniWrite, %Heal25HotkeyTibia11%, settings.ini, settings, Heal25HotkeyTibia11
+        Run, %A_ScriptDir%/Scripts/23. Press Hotkey when health is below 25 percent Tibia 11.exe
+        }
     ; Tab 1 />
     ; < Tab 2
     GuiControlGet, ReopenTibia11Client
@@ -106,83 +113,88 @@ StartScriptsTibia11:
         IniWrite, %Tibia11Directory%, settings.ini, settings, Tibia11Directory
         Run, %A_ScriptDir%/Scripts/7. Reopen Tibia 11 Client.exe   
         }
+    ; Tab 2 />
+    ; < Tab 3
     GuiControlGet, MoveItemToBackpackTibia11
     If (MoveItemToBackpackTibia11 = 1)
         {
-            IniWrite, %MoveItemToBackpackHotkeyTibia11%, settings.ini, settings, MoveItemToBackpackHotkeyTibia11
-            If (MoveItemToBackpackHotkeyTibia11 = "None")
-            {
-            }
-            If (MoveItemToBackpackHotkeyTibia11 = "Forward Mouse Button")
-            {
-            Run, %A_ScriptDir%/Scripts/20. Move item to backpack 1 Tibia 11.exe   
-            }
-            If (MoveItemToBackpackHotkeyTibia11 = "Back Mouse Button")
-            {
-            Run, %A_ScriptDir%/Scripts/20. Move item to backpack 2 Tibia 11.exe   
-            }
-            If (MoveItemToBackpackHotkeyTibia11 = "Scroll Mouse Button")
-            {
-            Run, %A_ScriptDir%/Scripts/20. Move item to backpack 3 Tibia 11.exe   
-            }
+        IniWrite, %MoveItemToBackpackHotkeyTibia11%, settings.ini, settings, MoveItemToBackpackHotkeyTibia11
+        Run, %A_ScriptDir%/Scripts/20. Move item to backpack Tibia 11.exe   
         }
     GuiControlGet, MoveItemToGroundTibia11
     If (MoveItemToGroundTibia11 = 1)
         {
         IniWrite, %MoveItemToGroundHotkeyTibia11%, settings.ini, settings, MoveItemToGroundHotkeyTibia11
-        If (MoveItemToGroundHotkeyTibia11 = "None")
+        Run, %A_ScriptDir%/Scripts/21. Move item to ground Tibia 11.exe   
+        }
+    GuiControlGet, HotkeyComboTibia11
+    If (HotkeyComboTibia11 = 1)
+        {
+        IniWrite, %HotkeyComboHotkey1Tibia11%, settings.ini, settings, HotkeyComboHotkey1Tibia11
+        IniWrite, %HotkeyComboHotkey2Tibia11%, settings.ini, settings, HotkeyComboHotkey2Tibia11
+        IniWrite, %HotkeyComboHotkey3Tibia11%, settings.ini, settings, HotkeyComboHotkey3Tibia11
+        IniWrite, %ClickOnPosXTibia11%, settings.ini, settings, ClickOnPosXTibia11
+        IniWrite, %ClickOnPosYTibia11%, settings.ini, settings, ClickOnPosYTibia11
+        IniWrite, %Sleep1Tibia11%, settings.ini, settings, Sleep1Tibia11
+        IniWrite, %Sleep2Tibia11%, settings.ini, settings, Sleep2Tibia11
+        If (HotkeyComboHotkey1Tibia11 = "None")
+        {
+        MsgBox, Hotkey 1 must be chosen to run Hotkey Combo, please select one and try again.
+        }   
+        If (HotkeyComboHotkey1Tibia11 != "None")
+        {
+        Run, %A_ScriptDir%/Scripts/24. Hotkey Combo Tibia 11.exe   
+        }   
+    }
+    ; Tab 3 />
+    ; < Tab 4
+    GuiControlGet, RingRefillTibia11
+    If (RingRefillTibia11 = 1)
+        {
+            If (RingToRefillTibia11 = "None")
             {
             }
-            If (MoveItemToGroundHotkeyTibia11 = "Forward Mouse Button")
+            If (RingToRefillTibia11 = "Life Ring")
             {
-            Run, %A_ScriptDir%/Scripts/21. Move item to ground 1 Tibia 11.exe   
+            IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/8. Auto Equip Life Ring Tibia 11.exe      
             }
-            If (MoveItemToGroundHotkeyTibia11 = "Back Mouse Button")
+            If (RingToRefillTibia11 = "Ring of Healing")
             {
-            Run, %A_ScriptDir%/Scripts/21. Move item to ground 2 Tibia 11.exe   
+            IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/9. Auto Equip Ring of Healing Tibia 11.exe      
             }
-            If (MoveItemToGroundHotkeyTibia11 = "Scroll Mouse Button")
+            If (RingToRefillTibia11 = "Time Ring")
             {
-            Run, %A_ScriptDir%/Scripts/21. Move item to ground 3 Tibia 11.exe   
+            IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/10. Auto Equip Time Ring Tibia 11.exe      
+            }
+            If (RingToRefillTibia11 = "Dwarven Ring")
+            {
+            IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/11. Auto Equip Dwarven Ring Tibia 11.exe      
             }
         }
-    ; Tab 2 />
-    ; < Tab 3
-    GuiControlGet, EquipLifeRingTibia11
-    If (EquipLifeRingTibia11 = 1)
+    GuiControlGet, AmuletRefillTibia11
+    If (AmuletRefillTibia11 = 1)
         {
-        IniWrite, %EquipLifeRingHotkeyTibia11%, settings.ini, settings, EquipLifeRingHotkeyTibia11
-        IniWrite, %ShiftEquipLifeRingTibia11%, settings.ini, settings, ShiftEquipLifeRingTibia11
-        Run, %A_ScriptDir%/Scripts/8. Auto Equip Life Ring Tibia 11 .exe 
-        }
-    GuiControlGet, EquipRoHTibia11
-    If (EquipRoHTibia11 = 1)
-        {
-        IniWrite, %EquipRoHHotkeyTibia11%, settings.ini, settings, EquipRoHHotkeyTibia11
-        IniWrite, %ShiftEquipRoHTibia11%, settings.ini, settings, ShiftEquipRoHTibia11
-        Run, %A_ScriptDir%/Scripts/9. Auto Equip Ring of Healing Tibia 11 .exe       
-        }
-    GuiControlGet, EquipTimeRingTibia11
-    If (EquipTimeRingTibia11 = 1)
-        {
-        IniWrite, %EquipTimeRingHotkeyTibia11%, settings.ini, settings, EquipTimeRingHotkeyTibia11
-        IniWrite, %ShiftEquipTimeRingTibia11%, settings.ini, settings, ShiftEquipTimeRingTibia11
-        Run, %A_ScriptDir%/Scripts/10. Auto Equip Time Ring Tibia 11 .exe       
-        }
-    GuiControlGet, EquipDwarvenRingTibia11
-    If (EquipDwarvenRingTibia11 = 1)
-        {
-        IniWrite, %EquipDwarvenRingHotkeyTibia11%, settings.ini, settings, EquipDwarvenRingHotkeyTibia11
-        IniWrite, %ShiftEquipDwarvenRingTibia11%, settings.ini, settings, ShiftEquipDwarvenRingTibia11
-        Run, %A_ScriptDir%/Scripts/11. Auto Equip Dwarven Ring Tibia 11 .exe       
-        }
-    GuiControlGet, EquipSSATibia11
-    If (EquipSSATibia11 = 1)
-        {
-        IniWrite, %EquipSSAHotkeyTibia11%, settings.ini, settings, EquipSSAHotkeyTibia11
-        IniWrite, %ShiftEquipSSATibia11%, settings.ini, settings, ShiftEquipSSATibia11
-        Run, %A_ScriptDir%/Scripts/12. Auto Equip Stone Skin Amulet Tibia 11 .exe       
-        }
+            If (AmuletToRefillTibia11 = "None")
+            {
+            }
+            If (AmuletToRefillTibia11 = "Stone Skin Amulet")
+            {
+            IniWrite, %AmuletRefillHotkeyTibia11%, settings.ini, settings, AmuletRefillHotkeyTibia11
+            IniWrite, %ShiftAmuletRefillTibia11%, settings.ini, settings, 
+            Run, %A_ScriptDir%/Scripts/12. Auto Equip Stone Skin Amulet Tibia 11.exe      
+            }
+       }
+       
+
+
     GuiControlGet, RenewUtaniHurTibia11
     If (RenewUtaniHurTibia11 = 1)
         {

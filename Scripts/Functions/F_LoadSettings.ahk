@@ -3,198 +3,201 @@
 
 LoadSettings:   ; initial read from settings.ini
     {
-        IniRead, TibiaClient, settings.ini, settings, TibiaClient
+        IniRead, TibiaClient, settings.ini, settings, TibiaClient, Tibia 11
+        IniRead, TooltipLanguage, settings.ini, settings, TooltipLanguage, English
         ; <Tab 1
-        IniRead, LoginHotkey1Tibia10, settings.ini, settings, LoginHotkey1Tibia10
-        IniRead, LoginHotkey1Tibia11, settings.ini, settings, LoginHotkey1Tibia11
-        IniRead, LoginHotkey2Tibia10, settings.ini, settings, LoginHotkey2Tibia10
-        IniRead, LoginHotkey2Tibia11, settings.ini, settings, LoginHotkey2Tibia11
-        IniRead, AutoReconnectTibia10, settings.ini, settings, AutoReconnectTibia10
-        IniRead, AutoReconnectTibia11, settings.ini, settings, AutoReconnectTibia11
-        IniRead, AccountNameReconnectTibia10, settings.ini, settings, AccountNameReconnectTibia10
-        IniRead, AccountNameReconnectTibia11, settings.ini, settings, AccountNameReconnectTibia11
-        IniRead, PasswordReconnectTibia10, settings.ini, settings, PasswordReconnectTibia10
-        IniRead, PasswordReconnectTibia11, settings.ini, settings, PasswordReconnectTibia11
-        IniRead, AccountNameReconnect2Tibia10, settings.ini, settings, AccountNameReconnect2Tibia10
-        IniRead, AccountNameReconnect2Tibia11, settings.ini, settings, AccountNameReconnect2Tibia11
-        IniRead, PasswordReconnect2Tibia10, settings.ini, settings, PasswordReconnect2Tibia10
-        IniRead, PasswordReconnect2Tibia11, settings.ini, settings, PasswordReconnect2Tibia11
-        IniRead, TimesToPressDownTibia10, settings.ini, settings, TimesToPressDownTibia10
-        IniRead, TimesToPressDownTibia11, settings.ini, settings, TimesToPressDownTibia11
-        IniRead, TimesToPressDown2Tibia10, settings.ini, settings, TimesToPressDown2Tibia10
-        IniRead, TimesToPressDown2Tibia11, settings.ini, settings, TimesToPressDown2Tibia11
-        IniRead, KeepTibia10ClientActive, settings.ini, settings, KeepTibia10ClientActive
-        IniRead, KeepTibia11ClientActive, settings.ini, settings, KeepTibia11ClientActive
-        IniRead, PressFXEveryXms1Tibia10, settings.ini, settings, PressFXEveryXms1Tibia10
-        IniRead, PressFXEveryXms2Tibia10, settings.ini, settings, PressFXEveryXms2Tibia10
-        IniRead, PressFXEveryXms3Tibia10, settings.ini, settings, PressFXEveryXms3Tibia10
-        IniRead, PressFXEveryXms1DelayTibia10, settings.ini, settings, PressFXEveryXms1DelayTibia10
-        IniRead, PressFXEveryXms2DelayTibia10, settings.ini, settings, PressFXEveryXms2DelayTibia10
-        IniRead, PressFXEveryXms3DelayTibia10, settings.ini, settings, PressFXEveryXms3DelayTibia10
-        IniRead, PressFXEveryXms1HotkeyTibia10, settings.ini, settings, PressFXEveryXms1HotkeyTibia10
-        IniRead, PressFXEveryXms2HotkeyTibia10, settings.ini, settings, PressFXEveryXms2HotkeyTibia10
-        IniRead, PressFXEveryXms3HotkeyTibia10, settings.ini, settings, PressFXEveryXms3HotkeyTibia10
-        IniRead, PressFXEveryXms1Tibia11, settings.ini, settings, PressFXEveryXms1Tibia11
-        IniRead, PressFXEveryXms2Tibia11, settings.ini, settings, PressFXEveryXms2Tibia11
-        IniRead, PressFXEveryXms3Tibia11, settings.ini, settings, PressFXEveryXms3Tibia11
-        IniRead, PressFXEveryXms1DelayTibia11, settings.ini, settings, PressFXEveryXms1DelayTibia11
-        IniRead, PressFXEveryXms2DelayTibia11, settings.ini, settings, PressFXEveryXms2DelayTibia11
-        IniRead, PressFXEveryXms3DelayTibia11, settings.ini, settings, PressFXEveryXms3DelayTibia11
-        IniRead, PressFXEveryXms1HotkeyTibia11, settings.ini, settings, PressFXEveryXms1HotkeyTibia11
-        IniRead, PressFXEveryXms2HotkeyTibia11, settings.ini, settings, PressFXEveryXms2HotkeyTibia11
-        IniRead, PressFXEveryXms3HotkeyTibia11, settings.ini, settings, PressFXEveryXms3HotkeyTibia11
-        IniRead, PressHotkeyWhenFullManaTibia10, settings.ini, settings, PressHotkeyWhenFullManaTibia10
-        IniRead, ShiftFullManaTibia10, settings.ini, settings, ShiftFullManaTibia10
-        IniRead, PressHotkeyWhenFullManaTibia11, settings.ini, settings, PressHotkeyWhenFullManaTibia11
-        IniRead, ShiftFullManaTibia11, settings.ini, settings, ShiftFullManaTibia11
-        IniRead, PressHotkeyWhenFullManaHotkeyTibia10, settings.ini, settings, PressHotkeyWhenFullManaHotkeyTibia10
-        IniRead, PressHotkeyWhenFullManaHotkeyTibia11, settings.ini, settings, PressHotkeyWhenFullManaHotkeyTibia11
-        IniRead, EatFoodTibia11, settings.ini, settings, EatFoodTibia11
-        IniRead, EatFoodHotkeyTibia11, settings.ini, settings, EatFoodHotkeyTibia11
-        IniRead, ShiftEatFoodTibia11, settings.ini, settings, ShiftEatFoodTibia11
-        IniRead, RightClickHold, settings.ini, settings, RightClickHold
-        IniRead, RightClickHoldDelay, settings.ini, settings, RightClickHoldDelay
-        IniRead, AntiIdleTibia10, settings.ini, settings, AntiIdleTibia10
-        IniRead, AntiIdleTibia11, settings.ini, settings, AntiIdleTibia11
-        IniRead, AntiIdleDelayTibia10, settings.ini, settings, AntiIdleDelayTibia10
-        IniRead, AntiIdleDelayTibia11, settings.ini, settings, AntiIdleDelayTibia11
-        IniRead, AntiIdleBackgroundTibia10, settings.ini, settings, AntiIdleBackgroundTibia10
-        IniRead, AntiIdleBackgroundTibia11, settings.ini, settings, AntiIdleBackgroundTibia11
-        IniRead, LogoffIfBattleChangesTibia10, settings.ini, settings, LogoffIfBattleChangesTibia10
-        IniRead, LogoffIfBattleChangesTibia11, settings.ini, settings, LogoffIfBattleChangesTibia11
+        IniRead, LoginHotkey1Tibia10, settings.ini, settings, LoginHotkey1Tibia10, 0
+        IniRead, LoginHotkey1Tibia11, settings.ini, settings, LoginHotkey1Tibia11, 0
+        IniRead, LoginHotkey2Tibia10, settings.ini, settings, LoginHotkey2Tibia10, 0
+        IniRead, LoginHotkey2Tibia11, settings.ini, settings, LoginHotkey2Tibia11, 0
+        IniRead, AutoReconnectTibia10, settings.ini, settings, AutoReconnectTibia10, 0
+        IniRead, AutoReconnectTibia11, settings.ini, settings, AutoReconnectTibia11, 0
+        IniRead, AccountNameReconnectTibia10, settings.ini, settings, AccountNameReconnectTibia10, %A_Space%
+        IniRead, AccountNameReconnectTibia11, settings.ini, settings, AccountNameReconnectTibia11, %A_Space%
+        IniRead, PasswordReconnectTibia10, settings.ini, settings, PasswordReconnectTibia10, %A_Space%
+        IniRead, PasswordReconnectTibia11, settings.ini, settings, PasswordReconnectTibia11, %A_Space%
+        IniRead, AccountNameReconnect2Tibia10, settings.ini, settings, AccountNameReconnect2Tibia10, %A_Space%
+        IniRead, AccountNameReconnect2Tibia11, settings.ini, settings, AccountNameReconnect2Tibia11, %A_Space%
+        IniRead, PasswordReconnect2Tibia10, settings.ini, settings, PasswordReconnect2Tibia10, %A_Space%
+        IniRead, PasswordReconnect2Tibia11, settings.ini, settings, PasswordReconnect2Tibia11, %A_Space%
+        IniRead, TimesToPressDownTibia10, settings.ini, settings, TimesToPressDownTibia10, 1
+        IniRead, TimesToPressDownTibia11, settings.ini, settings, TimesToPressDownTibia11, 1
+        IniRead, TimesToPressDown2Tibia10, settings.ini, settings, TimesToPressDown2Tibia10, 1
+        IniRead, TimesToPressDown2Tibia11, settings.ini, settings, TimesToPressDown2Tibia11, 1
+        IniRead, KeepTibia10ClientActive, settings.ini, settings, KeepTibia10ClientActive, 0
+        IniRead, KeepTibia11ClientActive, settings.ini, settings, KeepTibia11ClientActive, 0
+        IniRead, PressFXEveryXms1Tibia10, settings.ini, settings, PressFXEveryXms1Tibia10, 0
+        IniRead, PressFXEveryXms2Tibia10, settings.ini, settings, PressFXEveryXms2Tibia10, 0
+        IniRead, PressFXEveryXms3Tibia10, settings.ini, settings, PressFXEveryXms3Tibia10, 0
+        IniRead, PressFXEveryXms1DelayTibia10, settings.ini, settings, PressFXEveryXms1DelayTibia10, 10000
+        IniRead, PressFXEveryXms2DelayTibia10, settings.ini, settings, PressFXEveryXms2DelayTibia10, 30000
+        IniRead, PressFXEveryXms3DelayTibia10, settings.ini, settings, PressFXEveryXms3DelayTibia10, 60000
+        IniRead, PressFXEveryXms1HotkeyTibia10, settings.ini, settings, PressFXEveryXms1HotkeyTibia10, None
+        IniRead, PressFXEveryXms2HotkeyTibia10, settings.ini, settings, PressFXEveryXms2HotkeyTibia10, None
+        IniRead, PressFXEveryXms3HotkeyTibia10, settings.ini, settings, PressFXEveryXms3HotkeyTibia10, None
+        IniRead, PressFXEveryXms1Tibia11, settings.ini, settings, PressFXEveryXms1Tibia11, 0
+        IniRead, PressFXEveryXms2Tibia11, settings.ini, settings, PressFXEveryXms2Tibia11, 0
+        IniRead, PressFXEveryXms3Tibia11, settings.ini, settings, PressFXEveryXms3Tibia11, 0
+        IniRead, PressFXEveryXms1DelayTibia11, settings.ini, settings, PressFXEveryXms1DelayTibia11, 10000
+        IniRead, PressFXEveryXms2DelayTibia11, settings.ini, settings, PressFXEveryXms2DelayTibia11, 30000
+        IniRead, PressFXEveryXms3DelayTibia11, settings.ini, settings, PressFXEveryXms3DelayTibia11, 60000
+        IniRead, PressFXEveryXms1HotkeyTibia11, settings.ini, settings, PressFXEveryXms1HotkeyTibia11, None
+        IniRead, PressFXEveryXms2HotkeyTibia11, settings.ini, settings, PressFXEveryXms2HotkeyTibia11, None
+        IniRead, PressFXEveryXms3HotkeyTibia11, settings.ini, settings, PressFXEveryXms3HotkeyTibia11, None
+        IniRead, PressHotkeyWhenFullManaTibia10, settings.ini, settings, PressHotkeyWhenFullManaTibia10, 0
+        IniRead, ShiftFullManaTibia10, settings.ini, settings, ShiftFullManaTibia10, None
+        IniRead, PressHotkeyWhenFullManaTibia11, settings.ini, settings, PressHotkeyWhenFullManaTibia11, 0
+        IniRead, ShiftFullManaTibia11, settings.ini, settings, ShiftFullManaTibia11, None
+        IniRead, PressHotkeyWhenFullManaHotkeyTibia10, settings.ini, settings, PressHotkeyWhenFullManaHotkeyTibia10, None
+        IniRead, PressHotkeyWhenFullManaHotkeyTibia11, settings.ini, settings, PressHotkeyWhenFullManaHotkeyTibia11, None
+        IniRead, EatFoodTibia11, settings.ini, settings, EatFoodTibia11, 0
+        IniRead, EatFoodHotkeyTibia11, settings.ini, settings, EatFoodHotkeyTibia11, None
+        IniRead, ShiftEatFoodTibia11, settings.ini, settings, ShiftEatFoodTibia11, None
+        IniRead, RightClickHold, settings.ini, settings, RightClickHold, 0
+        IniRead, RightClickHoldDelay, settings.ini, settings, RightClickHoldDelay, 90
+        IniRead, Heal25Tibia11, settings.ini, settings, Heal25Tibia11, 0
+        IniRead, Heal25HotkeyTibia11, settings.ini, settings, Heal25HotkeyTibia11, None
+        IniRead, Heal25Tibia10, settings.ini, settings, Heal25Tibia10, 0
+        IniRead, Heal25HotkeyTibia10, settings.ini, settings, Heal25HotkeyTibia10, None
+        IniRead, AntiIdleTibia10, settings.ini, settings, AntiIdleTibia10, 0
+        IniRead, AntiIdleTibia11, settings.ini, settings, AntiIdleTibia11, 0
+        IniRead, AntiIdleDelayTibia10, settings.ini, settings, AntiIdleDelayTibia10, 160000
+        IniRead, AntiIdleDelayTibia11, settings.ini, settings, AntiIdleDelayTibia11, 160000
+        IniRead, AntiIdleBackgroundTibia10, settings.ini, settings, AntiIdleBackgroundTibia10, 0
+        IniRead, AntiIdleBackgroundTibia11, settings.ini, settings, AntiIdleBackgroundTibia11, 0
+        IniRead, LogoffIfBattleChangesTibia10, settings.ini, settings, LogoffIfBattleChangesTibia10, 0
+        IniRead, LogoffIfBattleChangesTibia11, settings.ini, settings, LogoffIfBattleChangesTibia11, 0
         ; Tab 1/>
         ; <Tab 2
-        IniRead, Tibia10Directory, settings.ini, settings, Tibia10Directory
-        IniRead, Tibia11Directory, settings.ini, settings, Tibia11Directory
-        IniRead, ReopenTibia10Client, settings.ini, settings, ReopenTibia10Client
-        IniRead, ReopenTibia11Client, settings.ini, settings, ReopenTibia11Client
-        IniRead, MoveItemToGroundTibia10, settings.ini, settings, MoveItemToGroundTibia10
-        IniRead, MoveItemToGroundTibia11, settings.ini, settings, MoveItemToGroundTibia11
-        IniRead, MoveItemToBackpackTibia10, settings.ini, settings, MoveItemToBackpackTibia10
-        IniRead, MoveItemToBackpackTibia11, settings.ini, settings, MoveItemToBackpackTibia11
-        IniRead, MoveItemToBackpackHotkeyTibia10, settings.ini, settings, MoveItemToBackpackHotkeyTibia10
-        IniRead, MoveItemToBackpackHotkeyTibia11, settings.ini, settings, MoveItemToBackpackHotkeyTibia11
-        IniRead, MoveItemToGroundHotkeyTibia10, settings.ini, settings, MoveItemToGroundHotkeyTibia10
-        IniRead, MoveItemToGroundHotkeyTibia11, settings.ini, settings, MoveItemToGroundHotkeyTibia11
-        IniRead, BPPosXTibia10, settings.ini, settings, BPPosXTibia10
-        IniRead, BPPosXTibia11, settings.ini, settings, BPPosXTibia11
-        IniRead, BPPosYTibia10, settings.ini, settings, BPPosYTibia10
-        IniRead, BPPosYTibia11, settings.ini, settings, BPPosYTibia11
-        IniRead, CharPosXTibia10, settings.ini, settings, CharPosXTibia10
-        IniRead, CharPosYTibia10, settings.ini, settings, CharPosYTibia10
-        IniRead, CharPosXTibia11, settings.ini, settings, CharPosXTibia11
-        IniRead, CharPosYTibia11, settings.ini, settings, CharPosYTibia11
-        IniRead, GamingMode, settings.ini, settings, GamingMode
-        IniRead, RemapKey1Tibia10, settings.ini, settings, RemapKey1Tibia10
-        IniRead, RemapKey2Tibia10, settings.ini, settings, RemapKey2Tibia10
-        IniRead, RemapKey3Tibia10, settings.ini, settings, RemapKey3Tibia10
-        IniRead, RemapKey4Tibia10, settings.ini, settings, RemapKey4Tibia10
-        IniRead, RemapKey5Tibia10, settings.ini, settings, RemapKey5Tibia10
-        IniRead, RemapKey6Tibia10, settings.ini, settings, RemapKey6Tibia10
-        IniRead, RemapKey7Tibia10, settings.ini, settings, RemapKey7Tibia10
-        IniRead, RemapKey8Tibia10, settings.ini, settings, RemapKey8Tibia10
-        IniRead, RemapKey9Tibia10, settings.ini, settings, RemapKey9Tibia10
-        IniRead, RemapKey10Tibia10, settings.ini, settings, RemapKey10Tibia10
-        IniRead, RemapKey1RemapTibia10, settings.ini, settings, RemapKey1RemapTibia10
-        IniRead, RemapKey2RemapTibia10, settings.ini, settings, RemapKey2RemapTibia10
-        IniRead, RemapKey3RemapTibia10, settings.ini, settings, RemapKey3RemapTibia10
-        IniRead, RemapKey4RemapTibia10, settings.ini, settings, RemapKey4RemapTibia10
-        IniRead, RemapKey5RemapTibia10, settings.ini, settings, RemapKey5RemapTibia10
-        IniRead, RemapKey64RemapTibia10, settings.ini, settings, RemapKey6RemapTibia10
-        IniRead, RemapKey7RemapTibia10, settings.ini, settings, RemapKey7RemapTibia10
-        IniRead, RemapKey8RemapTibia10, settings.ini, settings, RemapKey8RemapTibia10
-        IniRead, RemapKey9RemapTibia10, settings.ini, settings, RemapKey9RemapTibia10
-        IniRead, RemapKey10RemapTibia10, settings.ini, settings, RemapKey10RemapTibia10
+        IniRead, Tibia10Directory, settings.ini, settings, Tibia10Directory, %A_Space%
+        IniRead, Tibia11Directory, settings.ini, settings, Tibia11Directory, %A_Space%
+        IniRead, ReopenTibia10Client, settings.ini, settings, ReopenTibia10Client, 0
+        IniRead, ReopenTibia11Client, settings.ini, settings, ReopenTibia11Client, 0
         ; Tab 2/>
         ; <Tab 3
-        IniRead, EquipRoHTibia10, settings.ini, settings, EquipRoHTibia10
-        IniRead, EquipRoHTibia11, settings.ini, settings, EquipRoHTibia11
-        IniRead, EquipLifeRingTibia10, settings.ini, settings, EquipLifeRingTibia10
-        IniRead, EquipLifeRingTibia11, settings.ini, settings, EquipLifeRingTibia11
-        IniRead, EquipTimeRingTibia10, settings.ini, settings, EquipTimeRingTibia10
-        IniRead, EquipTimeRingTibia11, settings.ini, settings, EquipTimeRingTibia11
-        IniRead, EquipDwarvenRingTibia10, settings.ini, settings, EquipDwarvenRingTibia10
-        IniRead, EquipDwarvenRingTibia11, settings.ini, settings, EquipDwarvenRingTibia11
-        IniRead, EquipSSATibia10, settings.ini, settings, EquipSSATibia10
-        IniRead, EquipSSATibia11, settings.ini, settings, EquipSSATibia11
-        IniRead, DefaultAmuletTibia10, settings.ini, settings, DefaultAmuletTibia10
-        IniRead, DefaultAmuletTibia11, settings.ini, settings, DefaultAmuletTibia11
-        IniRead, DefaultRingTibia10, settings.ini, settings, DefaultRingTibia10
-        IniRead, DefaultRingTibia11, settings.ini, settings, DefaultRingTibia11
-        IniRead, DefaultSupportSpellTibia10, settings.ini, settings, DefaultSupportSpellTibia10
-        IniRead, DefaultSupportSpellTibia11, settings.ini, settings, DefaultSupportSpellTibia11
-        IniRead, DefaultHasteSpellTibia10, settings.ini, settings, DefaultHasteSpellTibia10
-        IniRead, DefaultHasteSpellTibia11, settings.ini, settings, DefaultHasteSpellTibia11
-        IniRead, EquipLifeRingHotkeyTibia10, settings.ini, settings, EquipLifeRingHotkeyTibia10
-        IniRead, EquipLifeRingHotkeyTibia11, settings.ini, settings, EquipLifeRingHotkeyTibia11
-        IniRead, EquipRoHHotkeyTibia10, settings.ini, settings, EquipRoHHotkeyTibia10
-        IniRead, EquipRoHHotkeyTibia11, settings.ini, settings, EquipRoHHotkeyTibia11
-        IniRead, EquipTimeRingHotkeyTibia10, settings.ini, settings, EquipTimeRingHotkeyTibia10
-        IniRead, EquipTimeRingHotkeyTibia11, settings.ini, settings, EquipTimeRingHotkeyTibia11
-        IniRead, EquipDwarvenRingHotkeyTibia10, settings.ini, settings, EquipDwarvenRingHotkeyTibia10
-        IniRead, EquipDwarvenRingHotkeyTibia11, settings.ini, settings, EquipDwarvenRingHotkeyTibia11
-        IniRead, EquipSSAHotkeyTibia10, settings.ini, settings, EquipSSAHotkeyTibia10
-        IniRead, EquipSSAHotkeyTibia11, settings.ini, settings, EquipSSAHotkeyTibia11
-        IniRead, ShiftEquipLifeRingTibia10, settings.ini, settings, ShiftEquipLifeRingTibia10
-        IniRead, ShiftEquipLifeRingTibia11, settings.ini, settings, ShiftEquipLifeRingTibia11
-        IniRead, ShiftEquipRoHTibia10, settings.ini, settings, ShiftEquipRoHTibia10
-        IniRead, ShiftEquipRoHTibia11, settings.ini, settings, ShiftEquipRoHTibia11
-        IniRead, ShiftEquipTimeRingTibia10, settings.ini, settings, ShiftEquipTimeRingTibia10
-        IniRead, ShiftEquipTimeRingTibia11, settings.ini, settings, ShiftEquipTimeRingTibia11
-        IniRead, ShiftEquipDwarvenRingTibia10, settings.ini, settings, ShiftEquipDwarvenRingTibia10
-        IniRead, ShiftEquipDwarvenRingTibia11, settings.ini, settings, ShiftEquipDwarvenRingTibia11
-        IniRead, ShiftEquipSSATibia10, settings.ini, settings, ShiftEquipSSATibia10
-        IniRead, ShiftEquipSSATibia11, settings.ini, settings, ShiftEquipSSATibia11
-        IniRead, ShiftUtamoVitaTibia10, settings.ini, settings, ShiftUtamoVitaTibia10
-        IniRead, ShiftUtamoVitaTibia11, settings.ini, settings, ShiftUtamoVitaTibia11
-        IniRead, RenewUtamoVitaTibia10, settings.ini, settings, RenewUtamoVitaTibia10
-        IniRead, RenewUtamoVitaTibia11, settings.ini, settings, RenewUtamoVitaTibia11
-        IniRead, RenewUtaniHurTibia10, settings.ini, settings, RenewUtaniHurTibia10
-        IniRead, RenewUtaniHurTibia11, settings.ini, settings, RenewUtaniHurTibia11
-        IniRead, RenewUtaniGranHurTibia10, settings.ini, settings, RenewUtaniGranHurTibia10
-        IniRead, RenewUtaniGranHurTibia11, settings.ini, settings, RenewUtaniGranHurTibia11
-        IniRead, RenewUtaniTempoHurTibia10, settings.ini, settings, RenewUtaniTempoHurTibia10
-        IniRead, RenewUtaniTempoHurTibia11, settings.ini, settings, RenewUtaniTempoHurTibia11
-        IniRead, RenewUtamoTempoSanTibia10, settings.ini, settings, RenewUtamoTempoSanTibia10
-        IniRead, RenewUtamoTempoSanTibia11, settings.ini, settings, RenewUtamoTempoSanTibia11
-        IniRead, UtamoVitaHotkeyTibia10, settings.ini, settings, UtamoVitaHotkeyTibia10
-        IniRead, UtamoVitaHotkeyTibia11, settings.ini, settings, UtamoVitaHotkeyTibia11
-        IniRead, UtaniHurHotkeyTibia10, settings.ini, settings, UtaniHurHotkeyTibia10
-        IniRead, UtaniHurHotkeyTibia11, settings.ini, settings, UtaniHurHotkeyTibia11
-        IniRead, UtaniGranHurHotkeyTibia10, settings.ini, settings, UtaniGranHurHotkeyTibia10
-        IniRead, UtaniGranHurHotkeyTibia11, settings.ini, settings, UtaniGranHurHotkeyTibia11
-        IniRead, UtaniTempoHurHotkeyTibia10, settings.ini, settings, UtaniTempoHurHotkeyTibia10
-        IniRead, UtaniTempoHurHotkeyTibia11, settings.ini, settings, UtaniTempoHurHotkeyTibia11
-        IniRead, UtamoTempoSanHotkeyTibia10, settings.ini, settings, UtamoTempoSanHotkeyTibia10
-        IniRead, UtamoTempoSanHotkeyTibia11, settings.ini, settings, UtamoTempoSanHotkeyTibia11
-        IniRead, ShiftUtaniHurTibia10, settings.ini, settings, ShiftUtaniHurTibia10
-        IniRead, ShiftUtaniHurTibia11, settings.ini, settings, ShiftUtaniHurTibia11
-        IniRead, ShiftUtaniGranHurTibia10, settings.ini, settings, ShiftUtaniGranHurTibia10
-        IniRead, ShiftUtaniGranHurTibia11, settings.ini, settings, ShiftUtaniGranHurTibia11
-        IniRead, ShiftUtaniTempoHurTibia10, settings.ini, settings, ShiftUtaniTempoHurTibia10
-        IniRead, ShiftUtaniTempoHurTibia11, settings.ini, settings, ShiftUtaniTempoHurTibia11
-        IniRead, ShiftUtamoTempoSanTibia10, settings.ini, settings, ShiftUtamoTempoSanTibia10
-        IniRead, ShiftUtamoTempoSanTibia11, settings.ini, settings, ShiftUtamoTempoSanTibia11
+        IniRead, MoveItemToGroundTibia10, settings.ini, settings, MoveItemToGroundTibia10, 0
+        IniRead, MoveItemToGroundTibia11, settings.ini, settings, MoveItemToGroundTibia11, 0
+        IniRead, MoveItemToBackpackTibia10, settings.ini, settings, MoveItemToBackpackTibia10, 0
+        IniRead, MoveItemToBackpackTibia11, settings.ini, settings, MoveItemToBackpackTibia11, 0
+        IniRead, MoveItemToBackpackHotkeyTibia10, settings.ini, settings, MoveItemToBackpackHotkeyTibia10, None
+        IniRead, MoveItemToBackpackHotkeyTibia11, settings.ini, settings, MoveItemToBackpackHotkeyTibia11, None
+        IniRead, MoveItemToGroundHotkeyTibia10, settings.ini, settings, MoveItemToGroundHotkeyTibia10, None
+        IniRead, MoveItemToGroundHotkeyTibia11, settings.ini, settings, MoveItemToGroundHotkeyTibia11, None
+        IniRead, BPPosXTibia10, settings.ini, settings, BPPosXTibia10, %A_Space%
+        IniRead, BPPosXTibia11, settings.ini, settings, BPPosXTibia11, %A_Space%
+        IniRead, BPPosYTibia10, settings.ini, settings, BPPosYTibia10, %A_Space%
+        IniRead, BPPosYTibia11, settings.ini, settings, BPPosYTibia11, %A_Space%
+        IniRead, CharPosXTibia10, settings.ini, settings, CharPosXTibia10, %A_Space%
+        IniRead, CharPosYTibia10, settings.ini, settings, CharPosYTibia10, %A_Space%
+        IniRead, CharPosXTibia11, settings.ini, settings, CharPosXTibia11, %A_Space%
+        IniRead, CharPosYTibia11, settings.ini, settings, CharPosYTibia11, %A_Space%
+        IniRead, GamingMode, settings.ini, settings, GamingMode, 0
+        IniRead, RemapKey1Tibia10, settings.ini, settings, RemapKey1Tibia10, %A_Space%
+        IniRead, RemapKey2Tibia10, settings.ini, settings, RemapKey2Tibia10, %A_Space%
+        IniRead, RemapKey3Tibia10, settings.ini, settings, RemapKey3Tibia10, %A_Space%
+        IniRead, RemapKey4Tibia10, settings.ini, settings, RemapKey4Tibia10, %A_Space%
+        IniRead, RemapKey5Tibia10, settings.ini, settings, RemapKey5Tibia10, %A_Space%
+        IniRead, RemapKey6Tibia10, settings.ini, settings, RemapKey6Tibia10, %A_Space%
+        IniRead, RemapKey7Tibia10, settings.ini, settings, RemapKey7Tibia10, %A_Space%
+        IniRead, RemapKey8Tibia10, settings.ini, settings, RemapKey8Tibia10, %A_Space%
+        IniRead, RemapKey9Tibia10, settings.ini, settings, RemapKey9Tibia10, %A_Space%
+        IniRead, RemapKey10Tibia10, settings.ini, settings, RemapKey10Tibia10, %A_Space%
+        IniRead, RemapKey1RemapTibia10, settings.ini, settings, RemapKey1RemapTibia10, %A_Space%
+        IniRead, RemapKey2RemapTibia10, settings.ini, settings, RemapKey2RemapTibia10, %A_Space%
+        IniRead, RemapKey3RemapTibia10, settings.ini, settings, RemapKey3RemapTibia10, %A_Space%
+        IniRead, RemapKey4RemapTibia10, settings.ini, settings, RemapKey4RemapTibia10, %A_Space%
+        IniRead, RemapKey5RemapTibia10, settings.ini, settings, RemapKey5RemapTibia10, %A_Space%
+        IniRead, RemapKey64RemapTibia10, settings.ini, settings, RemapKey6RemapTibia10, %A_Space%
+        IniRead, RemapKey7RemapTibia10, settings.ini, settings, RemapKey7RemapTibia10, %A_Space%
+        IniRead, RemapKey8RemapTibia10, settings.ini, settings, RemapKey8RemapTibia10, %A_Space%
+        IniRead, RemapKey9RemapTibia10, settings.ini, settings, RemapKey9RemapTibia10, %A_Space%
+        IniRead, RemapKey10RemapTibia10, settings.ini, settings, RemapKey10RemapTibia10, %A_Space%
+        IniRead, HotkeyComboTibia11, settings.ini, settings, HotkeyComboTibia11, 0
+        IniRead, HotkeyComboTibia10, settings.ini, settings, HotkeyComboTibia10, 0
+        IniRead, HotkeyComboHotkey1Tibia11, settings.ini, settings, HotkeyComboHotkey1Tibia11, None
+        IniRead, HotkeyComboHotkey2Tibia11, settings.ini, settings, HotkeyComboHotkey2Tibia11, None
+        IniRead, HotkeyComboHotkey3Tibia11, settings.ini, settings, HotkeyComboHotkey3Tibia11, None
+        IniRead, HotkeyComboHotkey1Tibia10, settings.ini, settings, HotkeyComboHotkey1Tibia10, None
+        IniRead, HotkeyComboHotkey2Tibia10, settings.ini, settings, HotkeyComboHotkey2Tibia10, None
+        IniRead, HotkeyComboHotkey3Tibia10, settings.ini, settings, HotkeyComboHotkey3Tibia10, None
+        IniRead, ClickOnPosXTibia11, settings.ini, settings, ClickOnPosXTibia11, %A_Space%
+        IniRead, ClickOnPosYTibia11, settings.ini, settings, ClickOnPosYTibia11, %A_Space%
+        IniRead, ClickOnPosXTibia10, settings.ini, settings, ClickOnPosXTibia10, %A_Space%
+        IniRead, ClickOnPosYTibia10, settings.ini, settings, ClickOnPosYTibia10, %A_Space%
+        IniRead, Sleep1Tibia11, settings.ini, settings, Sleep1Tibia11, 25
+        IniRead, Sleep2Tibia11, settings.ini, settings, Sleep2Tibia11, 25
+        IniRead, Sleep1Tibia10, settings.ini, settings, Sleep1Tibia10, 25
+        IniRead, Sleep2Tibia10, settings.ini, settings, Sleep2Tibia10, 25
         ; Tab 3/>
         ; <Tab 4
-        IniRead, AccountNameMC1, settings.ini, settings, AccountNameMC1
-        IniRead, PasswordMC1, settings.ini, settings, PasswordMC1
-        IniRead, TimesToPressDownMC1, settings.ini, settings, TimesToPressDownMC1
-        IniRead, AccountNameMC2, settings.ini, settings, AccountNameMC2
-        IniRead, PasswordMC2, settings.ini, settings, PasswordMC2
-        IniRead, TimesToPressDownMC2, settings.ini, settings, TimesToPressDownMC2
-        IniRead, AccountNameMC3, settings.ini, settings, AccountNameMC3
-        IniRead, PasswordMC3, settings.ini, settings, PasswordMC3
-        IniRead, TimesToPressDownMC3, settings.ini, settings, TimesToPressDownMC3
-        IniRead, AccountNameMC4, settings.ini, settings, AccountNameMC4
-        IniRead, PasswordMC4, settings.ini, settings, PasswordMC4
-        IniRead, TimesToPressDownMC4, settings.ini, settings, TimesToPressDownMC4
-        IniRead, AccountNameMC5, settings.ini, settings, AccountNameMC5
-        IniRead, PasswordMC5, settings.ini, settings, PasswordMC5
-        IniRead, TimesToPressDownMC5, settings.ini, settings, TimesToPressDownMC5
+        IniRead, RingRefillTibia11, settings.ini, settings, RingRefillTibia11, 0
+        IniRead, RingToRefillTibia11, settings.ini, settings, RingToRefillTibia11, None
+        IniRead, RingRefillHotkeyTibia11, settings.ini, settings, RingRefillHotkeyTibia11, %A_Space%
+        IniRead, ShiftRingRefillTibia11, settings.ini, settings, ShiftRingRefillTibia11, None
+        IniRead, RingRefillTibia10, settings.ini, settings, RingRefillTibia10, 0
+        IniRead, RingToRefillTibia10, settings.ini, settings, RingToRefillTibia10, None
+        IniRead, RingRefillHotkeyTibia10, settings.ini, settings, RingRefillHotkeyTibia10, %A_Space%
+        IniRead, ShiftRingRefillTibia10, settings.ini, settings, ShiftRingRefillTibia10, None
+        IniRead, AmuletRefillTibia11, settings.ini, settings, AmuletRefillTibia11, 0
+        IniRead, AmuletToRefillTibia11, settings.ini, settings, AmuletToRefillTibia11, None
+        IniRead, AmuletRefillHotkeyTibia11, settings.ini, settings, AmuletRefillHotkeyTibia11, %A_Space%
+        IniRead, ShiftAmuletRefillTibia11, settings.ini, settings, ShiftAmuletRefillTibia11, None
+        IniRead, AmuletRefillTibia10, settings.ini, settings, AmuletRefillTibia10, 0
+        IniRead, AmuletToRefillTibia10, settings.ini, settings, AmuletToRefillTibia10, None
+        IniRead, AmuletRefillHotkeyTibia10, settings.ini, settings, AmuletRefillHotkeyTibia10, %A_Space%
+        IniRead, ShiftAmuletRefillTibia10, settings.ini, settings, ShiftAmuletRefillTibia10, None
+        IniRead, RenewUtamoVitaTibia10, settings.ini, settings, RenewUtamoVitaTibia10, 0
+        IniRead, RenewUtamoVitaTibia11, settings.ini, settings, RenewUtamoVitaTibia11, 0
+        IniRead, RenewUtaniHurTibia10, settings.ini, settings, RenewUtaniHurTibia10, 0
+        IniRead, RenewUtaniHurTibia11, settings.ini, settings, RenewUtaniHurTibia11, 0
+        IniRead, RenewUtaniGranHurTibia10, settings.ini, settings, RenewUtaniGranHurTibia10, 0
+        IniRead, RenewUtaniGranHurTibia11, settings.ini, settings, RenewUtaniGranHurTibia11, 0
+        IniRead, RenewUtaniTempoHurTibia10, settings.ini, settings, RenewUtaniTempoHurTibia10, 0
+        IniRead, RenewUtaniTempoHurTibia11, settings.ini, settings, RenewUtaniTempoHurTibia11, 0
+        IniRead, RenewUtamoTempoSanTibia10, settings.ini, settings, RenewUtamoTempoSanTibia10, 0
+        IniRead, RenewUtamoTempoSanTibia11, settings.ini, settings, RenewUtamoTempoSanTibia11, 0
+        IniRead, UtamoVitaHotkeyTibia10, settings.ini, settings, UtamoVitaHotkeyTibia10, %A_Space%
+        IniRead, UtamoVitaHotkeyTibia11, settings.ini, settings, UtamoVitaHotkeyTibia11, %A_Space%
+        IniRead, UtaniHurHotkeyTibia10, settings.ini, settings, UtaniHurHotkeyTibia10, %A_Space%
+        IniRead, UtaniHurHotkeyTibia11, settings.ini, settings, UtaniHurHotkeyTibia11, %A_Space%
+        IniRead, UtaniGranHurHotkeyTibia10, settings.ini, settings, UtaniGranHurHotkeyTibia10, %A_Space%
+        IniRead, UtaniGranHurHotkeyTibia11, settings.ini, settings, UtaniGranHurHotkeyTibia11, %A_Space%
+        IniRead, UtaniTempoHurHotkeyTibia10, settings.ini, settings, UtaniTempoHurHotkeyTibia10, %A_Space%
+        IniRead, UtaniTempoHurHotkeyTibia11, settings.ini, settings, UtaniTempoHurHotkeyTibia11, %A_Space%
+        IniRead, UtamoTempoSanHotkeyTibia10, settings.ini, settings, UtamoTempoSanHotkeyTibia10, %A_Space%
+        IniRead, UtamoTempoSanHotkeyTibia11, settings.ini, settings, UtamoTempoSanHotkeyTibia11, %A_Space%
+        IniRead, ShiftUtamoVitaTibia10, settings.ini, settings, ShiftUtamoVitaTibia10, None
+        IniRead, ShiftUtamoVitaTibia11, settings.ini, settings, ShiftUtamoVitaTibia11, None
+        IniRead, ShiftUtaniHurTibia10, settings.ini, settings, ShiftUtaniHurTibia10, None
+        IniRead, ShiftUtaniHurTibia11, settings.ini, settings, ShiftUtaniHurTibia11, None
+        IniRead, ShiftUtaniGranHurTibia10, settings.ini, settings, ShiftUtaniGranHurTibia10, None
+        IniRead, ShiftUtaniGranHurTibia11, settings.ini, settings, ShiftUtaniGranHurTibia11, None
+        IniRead, ShiftUtaniTempoHurTibia10, settings.ini, settings, ShiftUtaniTempoHurTibia10, None
+        IniRead, ShiftUtaniTempoHurTibia11, settings.ini, settings, ShiftUtaniTempoHurTibia11, None
+        IniRead, ShiftUtamoTempoSanTibia10, settings.ini, settings, ShiftUtamoTempoSanTibia10, None
+        IniRead, ShiftUtamoTempoSanTibia11, settings.ini, settings, ShiftUtamoTempoSanTibia11, None
+        IniRead, DefaultHasteSpellTibia11, settings.ini, settings, DefaultHasteSpellTibia11, 1
+        IniRead, DefaultSupportSpellTibia11, settings.ini, settings, DefaultSupportSpellTibia11, 1
         ; Tab 4/>
         ; <Tab 5
-        IniRead, TransparentOldBotTibia10, settings.ini, settings, TransparentOldBotTibia10
-        IniRead, TransparentOldBotTibia11, settings.ini, settings, TransparentOldBotTibia11
+        IniRead, AccountNameMC1, settings.ini, settings, AccountNameMC1, %A_Space%
+        IniRead, PasswordMC1, settings.ini, settings, PasswordMC1, %A_Space%
+        IniRead, TimesToPressDownMC1, settings.ini, settings, TimesToPressDownMC1, 1
+        IniRead, AccountNameMC2, settings.ini, settings, AccountNameMC2, %A_Space%
+        IniRead, PasswordMC2, settings.ini, settings, PasswordMC2, %A_Space%
+        IniRead, TimesToPressDownMC2, settings.ini, settings, TimesToPressDownMC2,1
+        IniRead, AccountNameMC3, settings.ini, settings, AccountNameMC3, %A_Space%
+        IniRead, PasswordMC3, settings.ini, settings, PasswordMC3, %A_Space%
+        IniRead, TimesToPressDownMC3, settings.ini, settings, TimesToPressDownMC3, 1
+        IniRead, AccountNameMC4, settings.ini, settings, AccountNameMC4, %A_Space%
+        IniRead, PasswordMC4, settings.ini, settings, PasswordMC4, %A_Space%
+        IniRead, TimesToPressDownMC4, settings.ini, settings, TimesToPressDownMC4, 1
+        IniRead, AccountNameMC5, settings.ini, settings, AccountNameMC5, %A_Space%
+        IniRead, PasswordMC5, settings.ini, settings, PasswordMC5, %A_Space%
+        IniRead, TimesToPressDownMC5, settings.ini, settings, TimesToPressDownMC5, 1
         ; Tab 5/>
+        ; <Tab 6
+        IniRead, TransparentOldBotTibia10, settings.ini, settings, TransparentOldBotTibia10, 0
+        IniRead, TransparentOldBotTibia11, settings.ini, settings, TransparentOldBotTibia11, 0
+        ; Tab 6/>
     }

@@ -32,6 +32,8 @@ SavePresetTibia11:     ; Save configs in settings.ini file
     IniWrite, %ShiftEatFoodTibia11%, settings.ini, settings, ShiftEatFoodTibia11
     IniWrite, %RightClickHold%, settings.ini, settings, RightClickHold
     IniWrite, %RightClickHoldDelay%, settings.ini, settings, RightClickHoldDelay
+    IniWrite, %Heal25Tibia11%, settings.ini, settings, Heal25Tibia11
+    IniWrite, %Heal25HotkeyTibia11%, settings.ini, settings, Heal25HotkeyTibia11
     IniWrite, %AntiIdleTibia11%, settings.ini, settings, AntiIdleTibia11
     IniWrite, %AntiIdleDelayTibia11%, settings.ini, settings, AntiIdleDelayTibia11
     IniWrite, %AntiIdleBackgroundTibia11%, settings.ini, settings, AntiIdleBackgroundTibia11
@@ -40,33 +42,34 @@ SavePresetTibia11:     ; Save configs in settings.ini file
     ; <Tab 2
     IniWrite, %ReopenTibia11Client%, settings.ini, settings, ReopenTibia11Client
     IniWrite, %Tibia11Directory%, settings.ini, settings, Tibia11Directory
+    ; Tab 2/>
+    ; <Tab 3
     IniWrite, %MoveItemToBackpackTibia11%, settings.ini, settings, MoveItemToBackpackTibia11
     IniWrite, %MoveItemToGroundTibia11%, settings.ini, settings, MoveItemToGroundTibia11
     IniWrite, %MoveItemToBackpackHotkeyTibia11%, settings.ini, settings, MoveItemToBackpackHotkeyTibia11
     IniWrite, %MoveItemToGroundHotkeyTibia11%, settings.ini, settings, MoveItemToGroundHotkeyTibia11
+    IniWrite, %BPPosXTibia11%, settings.ini, settings, BPPosXTibia11
+    IniWrite, %BPPosYTibia11%, settings.ini, settings, BPPosYTibia11
     IniWrite, %CharPosXTibia11%, settings.ini, settings, CharPosXTibia11
     IniWrite, %CharPosYTibia11%, settings.ini, settings, CharPosYTibia11
-    ; Tab 2/>
-    ; <Tab 3
-    IniWrite, %EquipRoHTibia11%, settings.ini, settings, EquipRoHTibia11
-    IniWrite, %EquipLifeRingTibia11%, settings.ini, settings, EquipLifeRingTibia11
-    IniWrite, %EquipTimeRingTibia11%, settings.ini, settings, EquipTimeRingTibia11
-    IniWrite, %EquipDwarvenRingTibia11%, settings.ini, settings, EquipDwarvenRingTibia11
-    IniWrite, %EquipSSATibia11%, settings.ini, settings, EquipSSATibia11
-    IniWrite, %DefaultRingTibia11%, settings.ini, settings, DefaultRingTibia11
-    IniWrite, %DefaultAmuletTibia11%, settings.ini, settings, DefaultAmuletTibia11
-    IniWrite, %DefaultSupportSpellTibia11%, settings.ini, settings, DefaultSupportSpellTibia11
-    IniWrite, %DefaultHasteSpellTibia11%, settings.ini, settings, DefaultHasteSpellTibia11
-    IniWrite, %EquipLifeRingHotkeyTibia11%, settings.ini, settings, EquipLifeRingHotkeyTibia11
-    IniWrite, %ShiftEquipLifeRingTibia11%, settings.ini, settings, ShiftEquipLifeRingTibia11
-    IniWrite, %EquipRoHHotkeyTibia11%, settings.ini, settings, EquipRoHHotkeyTibia11
-    IniWrite, %ShiftEquipRoHTibia11%, settings.ini, settings, ShiftEquipRoHTibia11
-    IniWrite, %EquipTimeRingHotkeyTibia11%, settings.ini, settings, EquipTimeRingHotkeyTibia11
-    IniWrite, %ShiftEquipTimeRingTibia11%, settings.ini, settings, ShiftEquipTimeRingTibia11
-    IniWrite, %EquipDwarvenRingHotkeyTibia11%, settings.ini, settings, EquipDwarvenRingHotkeyTibia11
-    IniWrite, %ShiftEquipDwarvenRingTibia11%, settings.ini, settings, ShiftEquipDwarvenRingTibia11
-    IniWrite, %EquipSSAHotkeyTibia11%, settings.ini, settings, EquipSSAHotkeyTibia11
-    IniWrite, %ShiftEquipSSATibia11%, settings.ini, settings, ShiftEquipSSATibia11
+    IniWrite, %HotkeyComboTibia11%, settings.ini, settings, HotkeyComboTibia11
+    IniWrite, %HotkeyComboHotkey1Tibia11%, settings.ini, settings, HotkeyComboHotkey1Tibia11
+    IniWrite, %HotkeyComboHotkey2Tibia11%, settings.ini, settings, HotkeyComboHotkey2Tibia11
+    IniWrite, %HotkeyComboHotkey3Tibia11%, settings.ini, settings, HotkeyComboHotkey3Tibia11
+    IniWrite, %ClickOnPosXTibia11%, settings.ini, settings, ClickOnPosXTibia11
+    IniWrite, %ClickOnPosYTibia11%, settings.ini, settings, ClickOnPosYTibia11
+    IniWrite, %Sleep1Tibia11%, settings.ini, settings, Sleep1Tibia11
+    IniWrite, %Sleep2Tibia11%, settings.ini, settings, Sleep2Tibia11
+    ; Tab 3/>
+    ; <Tab 4
+    IniWrite, %RingRefillTibia11%, settings.ini, settings, RingRefillTibia11
+    IniWrite, %RingToRefillTibia11%, settings.ini, settings, RingToRefillTibia11
+    IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
+    IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, ShiftRingRefillTibia11
+    IniWrite, %AmuletRefillTibia11%, settings.ini, settings, AmuletRefillTibia11
+    IniWrite, %AmuletToRefillTibia11%, settings.ini, settings, AmuletToRefillTibia11
+    IniWrite, %AmuletRefillHotkeyTibia11%, settings.ini, settings, AmuletRefillHotkeyTibia11
+    IniWrite, %ShiftAmuletRefillTibia11%, settings.ini, settings, ShiftAmuletRefillTibia11
     IniWrite, %RenewUtamoVitaTibia11%, settings.ini, settings, RenewUtamoVitaTibia11
     IniWrite, %RenewUtaniHurTibia11%, settings.ini, settings, RenewUtaniHurTibia11
     IniWrite, %RenewUtaniGranHurTibia11%, settings.ini, settings, RenewUtaniGranHurTibia11
@@ -82,13 +85,15 @@ SavePresetTibia11:     ; Save configs in settings.ini file
     IniWrite, %ShiftUtamoTempoSanTibia11%, settings.ini, settings, ShiftUtamoTempoSanTibia11
     IniWrite, %UtamoVitaHotkeyTibia11%, settings.ini, settings, UtamoVitaHotkeyTibia11
     IniWrite, %ShiftUtamoVitaTibia11%, settings.ini, settings, ShiftUtamoVitaTibia11
-    ; Tab 3/>
-    ; <Tab 4
-
+    IniWrite, %DefaultHasteSpellTibia11%, settings.ini, settings, DefaultHasteSpellTibia11
+    IniWrite, %DefaultSupportSpellTibia11%, settings.ini, settings, DefaultSupportSpellTibia11
     ; Tab 4/>
     ; <Tab 5
-    IniWrite, %TransparentOldBotTibia11%, settings.ini, settings, TransparentOldBotTibia11
+
     ; Tab 5/>
+    ; <Tab 6
+    IniWrite, %TransparentOldBotTibia11%, settings.ini, settings, TransparentOldBotTibia11
+    ; Tab 6/>
     
     Return
 }
