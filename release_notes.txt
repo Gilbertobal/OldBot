@@ -1,5 +1,3 @@
-OldBot version: v1.2
---------------------
 What's new?
 --------------------
 Version 1.4:
