@@ -5,6 +5,7 @@ LoadSettings:   ; initial read from settings.ini
     {
         IniRead, TibiaClient, settings.ini, settings, TibiaClient, Tibia 11
         IniRead, TooltipLanguage, settings.ini, settings, TooltipLanguage, English
+        IniRead, TransparencyLevel, settings.ini, settings, TransparencyLevel, 180
         ; <Tab 1
         IniRead, LoginHotkey1Tibia10, settings.ini, settings, LoginHotkey1Tibia10, 0
         IniRead, LoginHotkey1Tibia11, settings.ini, settings, LoginHotkey1Tibia11, 0

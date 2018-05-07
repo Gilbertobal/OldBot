@@ -157,25 +157,25 @@ StartScriptsTibia11:
             If (RingToRefillTibia11 = "Life Ring")
             {
             IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
-            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, ShiftRingRefillTibia11 
             Run, %A_ScriptDir%/Scripts/8. Auto Equip Life Ring Tibia 11.exe      
             }
             If (RingToRefillTibia11 = "Ring of Healing")
             {
             IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
-            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, ShiftRingRefillTibia11
             Run, %A_ScriptDir%/Scripts/9. Auto Equip Ring of Healing Tibia 11.exe      
             }
             If (RingToRefillTibia11 = "Time Ring")
             {
             IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
-            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, ShiftRingRefillTibia11
             Run, %A_ScriptDir%/Scripts/10. Auto Equip Time Ring Tibia 11.exe      
             }
             If (RingToRefillTibia11 = "Dwarven Ring")
             {
             IniWrite, %RingRefillHotkeyTibia11%, settings.ini, settings, RingRefillHotkeyTibia11
-            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, 
+            IniWrite, %ShiftRingRefillTibia11%, settings.ini, settings, ShiftRingRefillTibia11
             Run, %A_ScriptDir%/Scripts/11. Auto Equip Dwarven Ring Tibia 11.exe      
             }
         }
@@ -188,7 +188,7 @@ StartScriptsTibia11:
             If (AmuletToRefillTibia11 = "Stone Skin Amulet")
             {
             IniWrite, %AmuletRefillHotkeyTibia11%, settings.ini, settings, AmuletRefillHotkeyTibia11
-            IniWrite, %ShiftAmuletRefillTibia11%, settings.ini, settings, 
+            IniWrite, %ShiftAmuletRefillTibia11%, settings.ini, settings, ShiftAmuletRefillTibia11
             Run, %A_ScriptDir%/Scripts/12. Auto Equip Stone Skin Amulet Tibia 11.exe      
             }
        }
