@@ -42,7 +42,7 @@ R: The OldBot, as described above, fully simulates the keyboard and mouse, the s
 
 - What is "Background" option in the scripts?
 
-R:Is a script that will execute its actions even if the Tibia client is not the focused window(in the background, NOT MINIMIZED).
+R: Is a script that will execute its actions even if the Tibia client is not the focused window(in the background, NOT MINIMIZED).
 
 
 - Is it possible to use OldBot in other custom Tibia Clients?
