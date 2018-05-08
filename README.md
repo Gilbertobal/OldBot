@@ -8,7 +8,7 @@ R: OldBot é como um macro, simulando ações do teclado e mouse, funciona basic
     
 - O OldBot é seguro(indetectável)?
 
-R: O OldBot, como descrito acima, simula totalmente ações do teclado e mouse, o BattlEye nunca baniu ou bloqueou jogadores usando macros(como o AutoHotkey), mas o BattlEye pode começar a fazer no futuro.
+R: O OldBot, como descrito acima, simula totalmente ações do teclado e mouse, o mesmo sinal de interrupção que é enviado para o sistema operacional(SO) quando nós pressionamos uma tecla, é o mesmo sinal que a ferramenta envia para o SO ao realizar alguma ação. A função de busca de imagens na tela é uma função nativa do Microsoft Windows, utilizada por vários aplicativos de forma segura e eficiente. Nâo há nenhum tipo de injeção no cliente ou manipulação de pacotes/memória, tornando assim a ferramenta exatamente um macro - 100% seguro.
 
 
 - O que é a opção "Background" nos scripts?
@@ -38,8 +38,7 @@ R: OldBot is like a macro, simulating actions of the keyboard and mouse, it work
 
 - Is OldBot safe(undetectable)?
 
-R: The OldBot, as described above, fully simulates the keyboard and mouse, BattlEye never banned or blocked players using macros(like AutoHotkey), but may be BattlEye can start doing it in the future.
-
+R: The OldBot, as described above, fully simulates the keyboard and mouse, the same interruption signal that is sent to the operational system(OS) when we press a key, is the same signal that the tool sends to the OS when doing some action. The image search function is a native function of Microsoft Windows, used by many apps in a safe and efficient way. There is no injection in the client or manipulation of packets/memory, making the tool exactly a macro - 100% safe.
 
 - What is "Background" option in the scripts?
 
