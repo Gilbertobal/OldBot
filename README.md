@@ -25,7 +25,7 @@ R: Sim, é possível utilizar em qualquer cliente de qualquer versão, mas prova
 
 R: Você pode me contatar via:
 
-Whatsapp: +55(16) 981387250
+Whatsapp: (16) 981387250
 
 Email: amtrosul@hotmail.com
 
