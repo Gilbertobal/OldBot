@@ -29,6 +29,8 @@ Whatsapp: (16) 981387250
 
 Email: amtrosul@hotmail.com
 
+Gostaria de doar algumas coins no Tibia? Envie para "Ervinhas"!
+
 .
 
 #FAQ: EN-US
@@ -59,5 +61,7 @@ Whatsapp: +55(16) 981387250
 Email: amtrosul@hotmail.com
 
 I'm brazilian but I can speak in English.
+
+Would you like to donate some coins in Tibia? Send to "Ervinhas"!
     
  
