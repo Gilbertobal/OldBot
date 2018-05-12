@@ -10,7 +10,7 @@ Start := A_TickCount
 loop
 
 {
-
+	Sleep, 50
    mousegetpos, x, y
 
    tooltip, %Text%, (x + 10), (y + 10), 1

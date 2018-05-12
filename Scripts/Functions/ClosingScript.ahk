@@ -10,6 +10,7 @@ Start := A_TickCount
 loop
 
 {
+	Sleep, 50
 
    mousegetpos, x, y
 
