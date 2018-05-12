@@ -9,7 +9,7 @@ OpenFAQEN-US:
     Gui, FAQENUS:Font, s10
     Gui, FAQENUS:Add, Text, x65 y+10 Left, OldBot version: %version% Copyright © 2018 Debbie Tools
     Gui, FAQENUS:Add, Text, x105 y+5 Left, www.github.com/debbietools/oldbot
-    Gui, FAQENUS:Add, Groupbox, x10 y+5 w430 r21.5, FAQ
+    Gui, FAQENUS:Add, Groupbox, x10 y+5 w430 r22.3, FAQ
 
     Gui, FAQENUS:Add, Text, xp+5 yp+20 w400 Left, - How does OldBot works?
     Gui, FAQENUS:Add, Text, xp+15 yp+20 w400 Left, A: The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when whe see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
@@ -28,11 +28,14 @@ OpenFAQEN-US:
     Gui, FAQENUS:Add, Text, xp+10 yp+20 w400 Left, Whatsapp: +55(16) 981387250 
     Gui, FAQENUS:Add, Text, xp+0 yp+20 w400 Left, Email: amtrosul@hotmail.com
     Gui, FAQENUS:Add, Text, xp+0 yp+20 w400 Left, I'm brazilian but I can speak in English.
+    Gui, FAQENUS:Add, Text, xp+0 yp+20 w400 Left, Would you like to donate some coins in Tibia? Send to "Ervinhas"!
+
+
     
     Gui, FAQENUS:Add, Text, xp+0 yp+40 w400 Left,
     Gui, FAQENUS:Add, Text, xp+0 yp+20 w400 Left,
     
-    Gui, FAQENUS: Show, w450 h585, FAQ - English
+    Gui, FAQENUS: Show, w450 h595, FAQ - English
     Return
 }
 
@@ -43,7 +46,7 @@ OpenFAQPT-BR:
     Gui, FAQPTBR:Font, s10
     Gui, FAQPTBR:Add, Text, x65 y+10 Left, OldBot versão: %version% Copyright © 2018 Debbie Tools
     Gui, FAQPTBR:Add, Text, x105 y+5 Left, www.github.com/debbietools/oldbot
-    Gui, FAQPTBR:Add, Groupbox, x10 y+5 w440 r22.5, FAQ
+    Gui, FAQPTBR:Add, Groupbox, x10 y+5 w440 r23.3, FAQ
 
     Gui, FAQPTBR:Add, Text, xp+5 yp+20 w410 Left, - Como o OldBot funciona?
     Gui, FAQPTBR:Add, Text, xp+15 yp+20 w410 Left, R: O OldBot é como um macro, simulando ações do teclado e mouse, funciona basicamente como nós humanos, ao vermos uma imagem na tela, nós reagimos a ela realizando alguma ação, e é exatamente o que a ferramenta faz, por isso é necessário também o cliente do Tibia estar ativo(nas funções que possuem busca de imagens).
@@ -61,10 +64,11 @@ OpenFAQPT-BR:
     Gui, FAQPTBR:Add, Text, xp+10 yp+20 w410 Left, R: Você pode me contatar via:
     Gui, FAQPTBR:Add, Text, xp+10 yp+20 w410 Left, Whatsapp: (16) 981387250
     Gui, FAQPTBR:Add, Text, xp+0 yp+20 w410 Left, Email: amtrosul@hotmail.com
+    Gui, FAQPTBR:Add, Text, xp+0 yp+20 w410 Left, Gostaria de doar algumas coins no Tibia? Envie para "Ervinhas"!
     
     Gui, FAQPTBR:Add, Text, xp+0 yp+40 w410 Left,
     Gui, FAQPTBR:Add, Text, xp+0 yp+20 w410 Left,
 
-    Gui, FAQPTBR: Show, w460 h605, FAQ - Português
+    Gui, FAQPTBR: Show, w460 h620, FAQ - Português
     Return
 }
