@@ -1,4 +1,4 @@
-# OldBot
+# OldBot for Tibia 11 & Tibia 10
 
 #FAQ: PT-BR
 - Como o OldBot funciona?
