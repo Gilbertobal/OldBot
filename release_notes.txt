@@ -1,6 +1,6 @@
 What's new?
 --------------------
-Version 1.5 - Big udate:
+Version 1.5 - Big update:
 - Check the updates on: https://github.com/debbietools/OldBot/projects/2
 --------------------
 Version 1.4.1:
