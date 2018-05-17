@@ -22,7 +22,7 @@
     - Remove Paralyze
     - Reopen Tibia Client automatically when closed
     - Hide/unhide Tibia Client
-    - Multi Client Login - perform login up to 5 accounts with one click (Tibia 10 Only)
+    - Multi Client Login - perform login on up to 5 accounts with one click (Tibia 10 Only)
     - Make any window transparent
     And more features coming soon!
     
