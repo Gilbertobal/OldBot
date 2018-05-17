@@ -7,7 +7,7 @@
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
     - Logoff if battle window changes
-    - Auto Eat Food
+    - Auto eat food
     - Hold Right Click(use food, walking "buggin" map...)
     - Anti-AFK
     - Press hotkeys every determined time
