@@ -2,7 +2,6 @@
 
 
 #Features List:
-
     - Auto Reconnect(even on server save)
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
@@ -15,7 +14,7 @@
     - Mana Healer
     - Remap Hotkeys - Walk with WASD(Tibia 10 Only)
     - Move item to backpack with hotkey(in the speed of light xD)
-    - Move item to ground with hotkey(in the speed of light xD)
+    - Move item to ground with hotkey
     - Hotkey Combo(do a combo of selected hotkeys + click)
     - Auto Refill Rings, Amulets, Soft Boots
     - Renew Haste & Support Spells, Utamo Vita, party spells
