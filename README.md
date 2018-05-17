@@ -18,7 +18,7 @@
     - Move item to ground with hotkey
     - Hotkey Combo(do a combo of selected hotkeys + click)
     - Auto refill Rings, Amulets & Soft Boots
-    - Auto refill arrow slot
+    - Auto refill ammunition(paladin)
     - Renew Haste & support spells, Utamo Vita, party spells
     - Remove Paralyze
     - Reopen Tibia Client automatically when closed
