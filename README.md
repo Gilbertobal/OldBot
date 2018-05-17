@@ -17,7 +17,8 @@
     - Move item to backpack with hotkey(in the speed of light xD)
     - Move item to ground with hotkey
     - Hotkey Combo(do a combo of selected hotkeys + click)
-    - Auto Refill Rings, Amulets, Soft Boots
+    - Auto refill Rings, Amulets & Soft Boots
+    - Auto refill arrow slot
     - Renew Haste & support spells, Utamo Vita, party spells
     - Remove Paralyze
     - Reopen Tibia Client automatically when closed
