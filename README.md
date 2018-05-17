@@ -1,5 +1,32 @@
 # OldBot for Tibia 11 & Tibia 10
 
+
+#Features List:
+
+    - Auto Reconnect(even on server save)
+    - Login Hotkey(manually login pressing a hotkey)
+    - Press hotkey when full mana(train magic level)
+    - Logoff if battle window changes
+    - Auto Eat Food
+    - Hold Right Click(use food, walking "buggin" map...)
+    - Anti-AFK
+    - Press hotkeys every determined time
+    - Life Healer
+    - Mana Healer
+    - Remap Hotkeys - Walk with WASD(Tibia 10 Only)
+    - Move item to backpack with hotkey(in the speed of light xD)
+    - Move item to ground with hotkey(in the speed of light xD)
+    - Hotkey Combo(do a combo of selected hotkeys + click)
+    - Auto Refill Rings, Amulets, Soft Boots
+    - Renew Haste & Support Spells, Utamo Vita, party spells
+    - Remove Paralyze
+    - Reopen Tibia Client automatically when closed
+    - Hide/unhide Tibia Client
+    - Multi Client Login - perform login up to 5 accounts with one click (Tibia 10 Only)
+    - Make any window transparent
+    And more features coming soon!
+    
+
 #FAQ: PT-BR
 - Como o OldBot funciona?
 
