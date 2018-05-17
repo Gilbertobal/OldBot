@@ -13,7 +13,7 @@
     - Press hotkeys every determined time
     - Life Healer
     - Mana Healer
-    - Remap Hotkeys - Walk with WASD(Tibia 10 Only)
+    - Remap Hotkeys + Walk with WASD(Tibia 10 Only)
     - Move item to backpack with hotkey(in the speed of light xD)
     - Move item to ground with hotkey
     - Hotkey Combo(do a combo of selected hotkeys + click)
