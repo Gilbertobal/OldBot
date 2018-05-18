@@ -3,6 +3,7 @@
 
 #Features List:
 
+    - *Cavebot* - In develpment, coming soon!
     - Auto Reconnect(even on server save)
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
@@ -25,6 +26,7 @@
     - Hide/unhide Tibia Client
     - Multi Client Login - perform login on up to 5 accounts with one click (Tibia 10 Only)
     - Make any window transparent
+    - Cronometer - tool to count the delay of spells/runes on screen 
     And more features coming soon!
     
 
