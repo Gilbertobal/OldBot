@@ -100,11 +100,21 @@ StartScriptsTibia11:
         IniWrite, %RightClickHoldDelay%, settings.ini, settings, RightClickHoldDelay
         Run, %A_ScriptDir%/Scripts/17. Right Click Hold.exe
         }
-        GuiControlGet, Heal25Tibia11
-    If (Heal25Tibia11 = 1)
+        GuiControlGet, LifeHealerTibia11
+    If (LifeHealerTibia11 = 1)
         {
         IniWrite, %Heal25HotkeyTibia11%, settings.ini, settings, Heal25HotkeyTibia11
-        Run, %A_ScriptDir%/Scripts/23. Press Hotkey when health is below 25 percent Tibia 11.exe
+        IniWrite, %Heal50HotkeyTibia11%, settings.ini, settings, Heal50HotkeyTibia11
+        IniWrite, %Heal80HotkeyTibia11%, settings.ini, settings, Heal80HotkeyTibia11
+        Run, %A_ScriptDir%/Scripts/31. Life Healer Tibia 11.exe
+        }
+        GuiControlGet, ManaHealerTibia11
+    If (ManaHealerTibia11 = 1)
+        {
+        IniWrite, %Mana25HotkeyTibia11%, settings.ini, settings, Mana25HotkeyTibia11
+        IniWrite, %Mana50HotkeyTibia11%, settings.ini, settings, Mana50HotkeyTibia11
+        IniWrite, %Mana80HotkeyTibia11%, settings.ini, settings, Mana80HotkeyTibia11
+        Run, %A_ScriptDir%/Scripts/31. Life Healer Tibia 11.exe
         }
     ; Tab 1 />
     ; < Tab 2
@@ -246,6 +256,23 @@ StartScriptsTibia11:
     ; <Tab 5
     
     ; Tab 5/>
-
+    ; <Tab 6
+    GuiControlGet, CronometerAppTibia11
+    If (CronometerAppTibia11 = 1)
+        {
+        IniWrite, %CronometerHotkey1%, settings.ini, settings, CronometerHotkey1
+        IniWrite, %CronometerHotkey2%, settings.ini, settings, CronometerHotkey2  
+        IniWrite, %CronometerHotkey3%, settings.ini, settings, CronometerHotkey3 
+        IniWrite, %CronometerHotkey4%, settings.ini, settings, CronometerHotkey4
+        IniWrite, %CronometerHotkey5%, settings.ini, settings, CronometerHotkey5 
+        IniWrite, %CronometerHotkey6%, settings.ini, settings, CronometerHotkey6 
+        IniWrite, %CronometerSeconds%, settings.ini, settings, CronometerSeconds 
+        IniWrite, %CronometerMessage%, settings.ini, settings, CronometerMessage 
+        IniWrite, %CronometerMessageDelay%, settings.ini, settings, CronometerMessageDelay
+        IniWrite, %CronometerMessageColor1%, settings.ini, settings, CronometerMessageColor1 
+        IniWrite, %CronometerMessageColor2%, settings.ini, settings, CronometerMessageColor2 
+        Run, %A_ScriptDir%/Scripts/31. CronometerApp.exe      
+        }
+    ; Tab 6>
     Return
 } ; StartScripts

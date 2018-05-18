@@ -59,10 +59,6 @@ LoadSettings:   ; initial read from settings.ini
         IniRead, ShiftEatFoodTibia10, settings.ini, settings, ShiftEatFoodTibia10, None
         IniRead, RightClickHold, settings.ini, settings, RightClickHold, 0
         IniRead, RightClickHoldDelay, settings.ini, settings, RightClickHoldDelay, 90
-        IniRead, Heal25Tibia11, settings.ini, settings, Heal25Tibia11, 0
-        IniRead, Heal25HotkeyTibia11, settings.ini, settings, Heal25HotkeyTibia11, None
-        IniRead, Heal25Tibia10, settings.ini, settings, Heal25Tibia10, 0
-        IniRead, Heal25HotkeyTibia10, settings.ini, settings, Heal25HotkeyTibia10, None
         IniRead, AntiIdleTibia10, settings.ini, settings, AntiIdleTibia10, 0
         IniRead, AntiIdleTibia11, settings.ini, settings, AntiIdleTibia11, 0
         IniRead, AntiIdleDelayTibia10, settings.ini, settings, AntiIdleDelayTibia10, 160000
@@ -71,6 +67,22 @@ LoadSettings:   ; initial read from settings.ini
         IniRead, AntiIdleBackgroundTibia11, settings.ini, settings, AntiIdleBackgroundTibia11, 0
         IniRead, LogoffIfBattleChangesTibia10, settings.ini, settings, LogoffIfBattleChangesTibia10, 0
         IniRead, LogoffIfBattleChangesTibia11, settings.ini, settings, LogoffIfBattleChangesTibia11, 0
+        IniRead, LifeHealerTibia10, settings.ini, settings, LifeHealerTibia10, 0
+        IniRead, Heal80HotkeyTibia10, settings.ini, settings, Heal80HotkeyTibia10, %A_Space% 
+        IniRead, Heal50HotkeyTibia10, settings.ini, settings, Heal50HotkeyTibia10, %A_Space%
+        IniRead, Heal25HotkeyTibia10, settings.ini, settings, Heal25HotkeyTibia10, %A_Space%
+        IniRead, ManaHealerTibia10, settings.ini, settings, ManaHealerTibia10, 0
+        IniRead, Mana80HotkeyTibia10, settings.ini, settings, Mana80HotkeyTibia10, %A_Space%
+        IniRead, Mana50HotkeyTibia10, settings.ini, settings, Mana50HotkeyTibia10, %A_Space%
+        IniRead, Mana25HotkeyTibia10, settings.ini, settings, Mana25HotkeyTibia10, %A_Space%
+        IniRead, LifeHealerTibia11, settings.ini, settings, LifeHealerTibia11, 0
+        IniRead, Heal80HotkeyTibia11, settings.ini, settings, Heal80HotkeyTibia11, %A_Space% 
+        IniRead, Heal50HotkeyTibia11, settings.ini, settings, Heal50HotkeyTibia11, %A_Space%
+        IniRead, Heal25HotkeyTibia11, settings.ini, settings, Heal25HotkeyTibia11, %A_Space%
+        IniRead, ManaHealerTibia11, settings.ini, settings, ManaHealerTibia11, 0
+        IniRead, Mana80HotkeyTibia11, settings.ini, settings, Mana80HotkeyTibia11, %A_Space%
+        IniRead, Mana50HotkeyTibia11, settings.ini, settings, Mana50HotkeyTibia11, %A_Space%
+        IniRead, Mana25HotkeyTibia11, settings.ini, settings, Mana25HotkeyTibia11, %A_Space%
         ; Tab 1/>
         ; <Tab 2
         IniRead, Tibia10Directory, settings.ini, settings, Tibia10Directory, %A_Space%
@@ -215,5 +227,18 @@ LoadSettings:   ; initial read from settings.ini
         ; <Tab 6
         IniRead, TransparentOldBotTibia10, settings.ini, settings, TransparentOldBotTibia10, 0
         IniRead, TransparentOldBotTibia11, settings.ini, settings, TransparentOldBotTibia11, 0
+        IniRead, CronometerAppTibia10, settings.ini, settings, CronometerAppTibia10, 0
+        IniRead, CronometerAppTibia11, settings.ini, settings, CronometerAppTibia11, 0
+        IniRead, CronometerHotkey1, settings.ini, settings, CronometerHotkey1, %A_Space%
+        IniRead, CronometerHotkey2, settings.ini, settings, CronometerHotkey2, %A_Space%
+        IniRead, CronometerHotkey3, settings.ini, settings, CronometerHotkey3, %A_Space%
+        IniRead, CronometerHotkey4, settings.ini, settings, CronometerHotkey4, %A_Space%
+        IniRead, CronometerHotkey5, settings.ini, settings, CronometerHotkey5, %A_Space%
+        IniRead, CronometerHotkey6, settings.ini, settings, CronometerHotkey6, %A_Space%
+        IniRead, CronometerSeconds, settings.ini, settings, CronometerSeconds, 2
+        IniRead, CronometerMessage, settings.ini, settings, CronometerMessage, Done
+        IniRead, CronometerMessageDelay, settings.ini, settings, CronometerMessageDelay, 200
+        IniRead, CronometerMessageColor1, settings.ini, settings, CronometerMessageColor1, Lime
+        IniRead, CronometerMessageColor2, settings.ini, settings, CronometerMessageColor2, Red
         ; Tab 6/>
     }

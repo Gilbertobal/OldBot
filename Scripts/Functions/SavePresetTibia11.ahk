@@ -32,12 +32,18 @@ SavePresetTibia11:     ; Save configs in settings.ini file
     IniWrite, %ShiftEatFoodTibia11%, settings.ini, settings, ShiftEatFoodTibia11
     IniWrite, %RightClickHold%, settings.ini, settings, RightClickHold
     IniWrite, %RightClickHoldDelay%, settings.ini, settings, RightClickHoldDelay
-    IniWrite, %Heal25Tibia11%, settings.ini, settings, Heal25Tibia11
-    IniWrite, %Heal25HotkeyTibia11%, settings.ini, settings, Heal25HotkeyTibia11
     IniWrite, %AntiIdleTibia11%, settings.ini, settings, AntiIdleTibia11
     IniWrite, %AntiIdleDelayTibia11%, settings.ini, settings, AntiIdleDelayTibia11
     IniWrite, %AntiIdleBackgroundTibia11%, settings.ini, settings, AntiIdleBackgroundTibia11
     IniWrite, %LogoffIfBattleChangesTibia11%, settings.ini, settings, LogoffIfBattleChangesTibia11
+    IniWrite, %LifeHealerTibia11%, settings.ini, settings, LifeHealerTibia11
+    IniWrite, %Heal80HotkeyTibia11%, settings.ini, settings, Heal80HotkeyTibia11
+    IniWrite, %Heal50HotkeyTibia11%, settings.ini, settings, Heal50HotkeyTibia11
+    IniWrite, %Heal25HotkeyTibia11%, settings.ini, settings, Heal25HotkeyTibia11
+    IniWrite, %ManaHealerTibia11%, settings.ini, settings, ManaHealerTibia11
+    IniWrite, %Mana80HotkeyTibia11%, settings.ini, settings, Mana80HotkeyTibia11
+    IniWrite, %Mana50HotkeyTibia11%, settings.ini, settings, Mana50HotkeyTibia11
+    IniWrite, %Mana25HotkeyTibia11%, settings.ini, settings, Mana25HotkeyTibia11
     ; Tab 1/>
     ; <Tab 2
     IniWrite, %ReopenTibia11Client%, settings.ini, settings, ReopenTibia11Client
@@ -96,6 +102,18 @@ SavePresetTibia11:     ; Save configs in settings.ini file
     ; <Tab 5
     ; Tab 5/>
     ; <Tab 6
+    IniWrite, %CronometerAppTibia11%, settings.ini, settings, CronometerAppTibia11
+    IniWrite, %CronometerHotkey1%, settings.ini, settings, CronometerHotkey1
+    IniWrite, %CronometerHotkey2%, settings.ini, settings, CronometerHotkey2  
+    IniWrite, %CronometerHotkey3%, settings.ini, settings, CronometerHotkey3 
+    IniWrite, %CronometerHotkey4%, settings.ini, settings, CronometerHotkey4
+    IniWrite, %CronometerHotkey5%, settings.ini, settings, CronometerHotkey5 
+    IniWrite, %CronometerHotkey6%, settings.ini, settings, CronometerHotkey6 
+    IniWrite, %CronometerSeconds%, settings.ini, settings, CronometerSeconds 
+    IniWrite, %CronometerMessage%, settings.ini, settings, CronometerMessage 
+    IniWrite, %CronometerMessageDelay%, settings.ini, settings, CronometerMessageDelay
+    IniWrite, %CronometerMessageColor1%, settings.ini, settings, CronometerMessageColor1 
+    IniWrite, %CronometerMessageColor2%, settings.ini, settings, CronometerMessageColor2 
     ; Tab 6/>
     
     Return

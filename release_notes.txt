@@ -1,5 +1,8 @@
 What's new?
 --------------------
+Version 1.6 - New features(healer and others):
+- Check the updates on: https://github.com/debbietools/OldBot/projects/4
+--------------------
 Version 1.5 - Big update:
 - Check the updates on: https://github.com/debbietools/OldBot/projects/2
 --------------------

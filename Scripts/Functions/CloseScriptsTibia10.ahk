@@ -35,6 +35,9 @@ CloseScriptsTibia10:
     Process, Close, 26. Refill Charged Soft Boots Tibia 10.exe
     Process, Close, 27. Refill Arrow Slot with Mouse Tibia 10.exe
     Process, Close, 28. Remove Paralyze Tibia 10.exe
+    Process, Close, 29. CronometerApp.exe
+    Process, Close, 30. Life Healer Tibia 10.exe
+    Process, Close, 31. Mana Healer Tibia 10.exe
 
     Return
 }
