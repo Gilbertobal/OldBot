@@ -38,7 +38,7 @@ R: O OldBot é como um macro, simulando ações do teclado e mouse, funciona bas
     
 - O OldBot é seguro(indetectável)?
 
-R: Como descrito acima, simula totalmente ações do teclado e mouse, o mesmo sinal de interrupção que é enviado para o sistema operacional(SO) quando nós pressionamos uma tecla, é o mesmo sinal que a ferramenta envia para o SO ao realizar alguma ação. A função de busca de imagens na tela é uma função utilizada por vários aplicativos de forma segura e eficiente. Nâo há nenhum tipo de injeção no cliente ou manipulação de pacotes/memória, tornando assim a ferramenta exatamente um macro - 100% seguro.
+R: Como descrito acima, a ferramenta simula ações do teclado e mouse. A função de busca de imagens na tela é uma função utilizada por vários aplicativosn, nâo há nenhum tipo de injeção no cliente ou manipulação de pacotes/memória.
 
 
 - O que é a opção "Background" nos scripts?
@@ -68,7 +68,7 @@ R: The OldBot is like a macro, simulating actions of the keyboard and mouse, it 
 
 - Is OldBot safe(undetectable)?
 
-R: As described above, fully simulates the keyboard and mouse, the same interruption signal that is sent to the operational system(OS) when we press a key, is the same signal that the tool sends to the OS when doing some action. The image search function is used by many apps in a safe and efficient way. There is no injection in the client or manipulation of packets/memory, making the tool exactly a macro - 100% safe.
+R: As described above, the tool simulates the keyboard and mouse. The image search function is used by many apps, there is no injection in the client or manipulation of packets/memory.
 
 - What is "Background" option in the scripts?
 
