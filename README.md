@@ -64,7 +64,7 @@ Email: amtrosul@hotmail.com
 #FAQ: EN-US
 - How does OldBot works?
 
-R: The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when whe see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
+R: The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when we see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
 
 - Is OldBot safe(undetectable)?
 
