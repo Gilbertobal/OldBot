@@ -1,4 +1,4 @@
-# OldBot for Tibia 11 & Tibia 10 - DO NOT USE ON REAL TIBIA, UNFORTUNATELY BATTLEYE IS BANNING THE OLDBOT IN 1 DAY OF USING.
+# OldBot for Tibia 11 & Tibia 10 - Do not use on Real Tibia, unfortunately BattlEye is now banning with OldBot with 1 day of use.
 
 
 #Features List:
