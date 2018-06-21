@@ -3,7 +3,7 @@
 
 #Features List:
 
-    - *Cavebot* - In development, coming soon!
+    - *Cavebot* - In development, no deadline yet.
     - Auto Reconnect(even on server save)
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
