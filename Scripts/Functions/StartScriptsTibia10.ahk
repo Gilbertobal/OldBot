@@ -107,7 +107,7 @@ StartScriptsTibia10:
         IniWrite, %Heal25HotkeyTibia10%, settings.ini, settings, Heal25HotkeyTibia10
         IniWrite, %Heal50HotkeyTibia10%, settings.ini, settings, Heal50HotkeyTibia10
         IniWrite, %Heal80HotkeyTibia10%, settings.ini, settings, Heal80HotkeyTibia10
-        Run, %A_ScriptDir%/Scripts/31. Life Healer Tibia 11.exe
+        Run, %A_ScriptDir%/Scripts/30. Life Healer Tibia 10.exe
         }
         GuiControlGet, ManaHealerTibia10
     If (ManaHealerTibia10 = 1)
@@ -115,7 +115,7 @@ StartScriptsTibia10:
         IniWrite, %Mana25HotkeyTibia10%, settings.ini, settings, Mana25HotkeyTibia10
         IniWrite, %Mana50HotkeyTibia10%, settings.ini, settings, Mana50HotkeyTibia10
         IniWrite, %Mana80HotkeyTibia10%, settings.ini, settings, Mana80HotkeyTibia10
-        Run, %A_ScriptDir%/Scripts/31. Life Healer Tibia 11.exe
+        Run, %A_ScriptDir%/Scripts/31. Mana Healer Tibia 10.exe
         }
     ; Tab 1 />
     ; < Tab 2
@@ -297,7 +297,7 @@ StartScriptsTibia10:
         IniWrite, %CronometerMessageDelay%, settings.ini, settings, CronometerMessageDelay
         IniWrite, %CronometerMessageColor1%, settings.ini, settings, CronometerMessageColor1 
         IniWrite, %CronometerMessageColor2%, settings.ini, settings, CronometerMessageColor2 
-        Run, %A_ScriptDir%/Scripts/31. CronometerApp.exe      
+        Run, %A_ScriptDir%/Scripts/29. CronometerApp.exe      
         }
     ; Tab 6/>
 
