@@ -2,7 +2,8 @@
 # Status: development currently stopped due to no motivation to go on :(
 # Want a tool to make some speficic things on Tibia? I can make it for you!
 
-#Another tools that you can use on Real Tibia - compiled with your own custom name to avoid ban: 
+#Another tools that you can use on Real Tibia - compiled with your own custom name to avoid ban:
+
     - Slime Trainer
     - Health/Mana Healer
     - Auto Reconnect(even on server save)
