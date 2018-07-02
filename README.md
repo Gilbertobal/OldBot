@@ -14,7 +14,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     
 # OldBot features list:
 
-    - *Cavebot* - Development currently stopped.
+    - *Cavebot* - Development currently stopped due to problems with the looter
     - Auto Reconnect(even on server save)
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
