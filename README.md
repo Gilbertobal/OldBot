@@ -35,7 +35,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Remove Paralyze
     - Reopen Tibia Client automatically when closed
     - Hide/unhide Tibia Client
-    - Multi Client Login - perform login on up to 5 accounts with one click (Tibia 10 Only)
+    - Multi Client Login - perform login on up to 5 accounts each with one click (Tibia 10 Only)
     - Make any window transparent
     - Cronometer - tool to count the delay of spells/runes on screen 
     Have ideas of new functions? Tell me!
