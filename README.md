@@ -12,16 +12,16 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Runemaker
     - Other custom tools
 
-# OldBot Features List:
+    - Logoff if battle window changes
+    - Auto eat food
+    - Hold Right Click(use food, walking "bugging" map...)
+    - Anti-AFK
+# OldBot features list:
 
     - *Cavebot* - Development currently stopped.
     - Auto Reconnect(even on server save)
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
-    - Logoff if battle window changes
-    - Auto eat food
-    - Hold Right Click(use food, walking "bugging" map...)
-    - Anti-AFK
     - Press hotkeys every determined time
     - Life Healer
     - Mana Healer
