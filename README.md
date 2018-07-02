@@ -10,6 +10,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Health/Mana Healer
     - Auto Reconnect(even on server save)
     - Auto attack target
+    - Runemaker
     - Other custom tools
 
 # Features List:
