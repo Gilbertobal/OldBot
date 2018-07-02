@@ -4,7 +4,7 @@
 
 #Another tools that you can use on Real Tibia - compiled with your own custom name to avoid ban:
 
-    - Slime Trainer
+    - Slime Trainer(or other creatures)
     - Health/Mana Healer
     - Auto Reconnect(even on server save)
 
