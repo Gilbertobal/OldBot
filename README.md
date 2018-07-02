@@ -1,7 +1,6 @@
 # OldBot for Tibia 11 and below - Do not use on Real Tibia, BattlEye is banning OldBot.
-
 # Status: development currently stopped due to no motivation to go on :(
-# Want a tool to automate specific tasks? I can make it for you!
+# Want a tool to automate some specific tasks? I can make it for you!
 
 # Other tools:
 These tools you can use on Real Tibia - they are compiled with your own custom name to avoid ban, contact me for more info:
