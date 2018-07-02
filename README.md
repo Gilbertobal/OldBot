@@ -1,5 +1,5 @@
-# OldBot for Tibia 11 & Tibia 10 - Do not use on Real Tibia, unfortunately BattlEye is banning OldBot(probably some type of "blacklist).
-# Status: development currently stopped :/
+# OldBot for Tibia 11 & Tibia 10 - Do not use on Real Tibia, unfortunately BattlEye is banning OldBot (probably some type of "blacklist).
+# Status: development currently stopped :(
 
 
 #Features List:
