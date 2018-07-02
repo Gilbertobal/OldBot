@@ -1,8 +1,13 @@
-# OldBot for Tibia 11 and below - Do not use on Real Tibia, BattlEye is banning OldBot (probably some type of "blacklist").
+# OldBot for Tibia 11 and below - Do not use on Real Tibia, BattlEye is banning OldBot.
 # Status: development currently stopped due to no motivation to go on :(
 # Want a tool to make some speficic things on Tibia? I can make it for you!
 
-#Features List:
+#Another tools that you can use on Real Tibia - compiled with your own custom name to avoid ban: 
+    - Slime Trainer
+    - Health/Mana Healer
+    - Auto Reconnect(even on server save)
+
+# Features List:
 
     - *Cavebot* - Development currently stopped.
     - Auto Reconnect(even on server save)
