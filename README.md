@@ -41,7 +41,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     Have ideas of new functions? Tell me!
     
 
-#FAQ: PT-BR
+# FAQ: PT-BR
 - Como o OldBot funciona?
 
 R: O OldBot é como um macro, simulando ações do teclado e mouse, funciona basicamente como nós humanos, ao vermos uma imagem na tela, nós reagimos a ela realizando alguma ação, e é exatamente o que a ferramenta faz, por isso é necessário também o cliente do Tibia estar ativo(nas funções que possuem busca de imagens).
@@ -72,7 +72,7 @@ Email: amtrosul@hotmail.com
 
 .
 
-#FAQ: EN-US
+# FAQ: EN-US
 - How does OldBot works?
 
 R: The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when we see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
