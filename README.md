@@ -1,5 +1,5 @@
 # OldBot for Tibia 11 and below - Do not use on Real Tibia, BattlEye is banning OldBot.
-# Project status: 
+Project status: 
 Development currently stopped due to no motivation to go on :(
 # Want a tool to automate some specific tasks? I can make it for you!
 
@@ -13,7 +13,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Runemaker
     - Other custom tools
 
-# Features List:
+# OldBot Features List:
 
     - *Cavebot* - Development currently stopped.
     - Auto Reconnect(even on server save)
