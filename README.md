@@ -1,4 +1,5 @@
-# OldBot for Tibia 11 & Tibia 10 - Do not use on Real Tibia, unfortunately BattlEye is now banning OldBot with 1 day of use.
+# OldBot for Tibia 11 & Tibia 10 - Do not use on Real Tibia, unfortunately BattlEye is banning OldBot(probably some type of "blacklist).
+# Status: development currently stopped :/
 
 
 #Features List:
@@ -27,7 +28,7 @@
     - Multi Client Login - perform login on up to 5 accounts with one click (Tibia 10 Only)
     - Make any window transparent
     - Cronometer - tool to count the delay of spells/runes on screen 
-    And more features coming soon!
+    Have ideas of new functions? Tell me!
     
 
 #FAQ: PT-BR
