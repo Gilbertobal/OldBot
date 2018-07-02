@@ -70,8 +70,6 @@ Whatsapp: (16) 981387250
 
 Email: amtrosul@hotmail.com
 
-.
-
 # FAQ: EN-US
 - How does OldBot works?
 
