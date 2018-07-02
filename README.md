@@ -10,7 +10,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Auto Reconnect(even on server save)
     - Auto attack target
     - Runemaker
-    - Other custom tools
+    Other custom tools
     
 # OldBot features list:
 
