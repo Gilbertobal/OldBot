@@ -11,11 +11,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Auto attack target
     - Runemaker
     - Other custom tools
-
-    - Logoff if battle window changes
-    - Auto eat food
-    - Hold Right Click(use food, walking "bugging" map...)
-    - Anti-AFK
+    
 # OldBot features list:
 
     - *Cavebot* - Development currently stopped.
@@ -23,6 +19,10 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
     - Press hotkeys every determined time
+    - Logoff if battle window changes
+    - Auto eat food
+    - Hold Right Click(use food, walking "bugging" map...)
+    - Anti-AFK
     - Life Healer
     - Mana Healer
     - Remap Hotkeys + Walk with WASD(Tibia 10 Only)
