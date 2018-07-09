@@ -45,14 +45,14 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
 
 # FAQ: PT-BR
 
-- Como instalar/usar?
-    - Faça o download de todo o conteúdo do repositório no GitHub clicando no botão verde "Clone/Download",
+- Como instalar/utilizar?
+    - Passo 1: Fazer o download de todo o conteúdo do repositório no GitHub clicando no botão verde "Clone or download"
     
-    - Extrair os arquivos 
+    - Passo 2: Extrair os arquivos 
     
-    - Executar o instalador do AutoHotkey
+    - Passo 3: Executar o instalador do AutoHotkey
     
-    - Abrir o OldBot.exe
+    - Passo 4: Abrir o OldBot.exe
 
 
 - Como o OldBot funciona?
@@ -84,6 +84,16 @@ Whatsapp: (16) 981387250
 Email: amtrosul@hotmail.com
 
 # FAQ: EN-US
+
+- How to install/use?
+    - Step 1: Download the entire repository inside GitHub clicking on the green button "Clone or download"
+    
+    - Step 2: Extract the archives
+    
+    - Step 3: Run the autohotkey installer
+    
+    = Step 4: Open the OldBot.exe
+
 - How does OldBot works?
 
 R: The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when we see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
