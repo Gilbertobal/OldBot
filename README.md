@@ -41,7 +41,6 @@ These tools you can use safely on Real Tibia - they are compiled with your own c
     Have ideas of new functions? Tell me!
     
 
-
 # FAQ: PT-BR
 
 - Como instalar/utilizar?
@@ -60,7 +59,7 @@ These tools you can use safely on Real Tibia - they are compiled with your own c
     - É um script que vai executar as ações mesmo se cliente do Tibia não for a janela ativa(quando está "atrás" de outras janelas, NÃO MINIMIZADO).
 
 - É possível utilizar o OldBot em outros clientes custom de Tibia?
-    Sim, é possível utilizar em qualquer cliente de qualquer versão, mas provavelmente eu precisaria customizar/desenvolver alguns scripts.
+    - Sim, é possível utilizar em qualquer cliente de qualquer versão, mas provavelmente eu precisaria customizar/desenvolver alguns scripts.
 
 - Como eu poderia solicitar uma nova função ou uma mudança?
     - Você pode me contatar via:
