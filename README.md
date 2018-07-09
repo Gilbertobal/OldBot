@@ -2,7 +2,7 @@
 Project Status: development currently stopped due to no motivation to go on :(
 # Want a tool to automate some specific tasks? I can make it for you!
 
-# Other tools:
+#Other tools:
 These tools you can use safely on Real Tibia - they are compiled with your own custom name to avoid ban, contact me for more info:
 
     - Slime Trainer(or other creatures)
