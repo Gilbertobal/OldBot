@@ -60,27 +60,23 @@ These tools you can use safely on Real Tibia - they are compiled with your own c
 
     
 - O OldBot é seguro(indetectável)?
-
-R: Sim, porém ao disponibilizar a ferramenta públicamente eu creio que ela foi adicionada em algum tipo de lista negra do BattlEye - Como descrito acima, a ferramenta simula ações do teclado e mouse. A função de busca de imagens na tela é uma função segura, nâo há nenhum tipo de injeção no cliente ou manipulação de pacotes/memória.
+    - Sim, porém ao disponibilizar a ferramenta públicamente eu creio que ela foi adicionada em algum tipo de lista negra do BattlEye - Como descrito acima, a ferramenta simula ações do teclado e mouse. A função de busca de imagens na tela é uma função segura, nâo há nenhum tipo de injeção no cliente ou manipulação de pacotes/memória.
 
 
 - O que é a opção "Background" nos scripts?
-
-R: É um script que vai executar as ações mesmo se cliente do Tibia não for a janela ativa(quando está "atrás" de outras janelas, NÃO MINIMIZADO).
+    - É um script que vai executar as ações mesmo se cliente do Tibia não for a janela ativa(quando está "atrás" de outras janelas, NÃO MINIMIZADO).
 
 
 - É possível utilizar o OldBot em outros clientes custom de Tibia?
-
-R: Sim, é possível utilizar em qualquer cliente de qualquer versão, mas provavelmente eu precisaria customizar/desenvolver alguns scripts.
+    Sim, é possível utilizar em qualquer cliente de qualquer versão, mas provavelmente eu precisaria customizar/desenvolver alguns scripts.
 
 
 - Como eu poderia solicitar uma nova função ou uma mudança?
+    - Você pode me contatar via:
 
-R: Você pode me contatar via:
+    -Whatsapp: (16) 981387250
 
-Whatsapp: (16) 981387250
-
-Email: amtrosul@hotmail.com
+    -Email: amtrosul@hotmail.com
 
 # FAQ: EN-US
 
