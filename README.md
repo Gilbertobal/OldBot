@@ -74,9 +74,9 @@ These tools you can use safely on Real Tibia - they are compiled with your own c
 - Como eu poderia solicitar uma nova função ou uma mudança?
     - Você pode me contatar via:
 
-    -Whatsapp: (16) 981387250
+    - Whatsapp: (16) 981387250
 
-    -Email: amtrosul@hotmail.com
+    - Email: amtrosul@hotmail.com
 
 # FAQ: EN-US
 
@@ -90,31 +90,23 @@ These tools you can use safely on Real Tibia - they are compiled with your own c
     = Step 4: Open the OldBot.exe
 
 - How does OldBot works?
-
-R: The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when we see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
+    - The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when we see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
 
 - Is OldBot safe(undetectable)?
-
-R: Yes, but after releasing the tool publicly I guess it has been added on some type of blacklist of BattlEye - As described above, the tool simulates the keyboard and mouse. The image search function is safe, there is no injection in the client or manipulation of packets/memory.
+    - Yes, but after releasing the tool publicly I guess it has been added on some type of blacklist of BattlEye - As described above, the tool simulates the keyboard and mouse. The image search function is safe, there is no injection in the client or manipulation of packets/memory.
 
 - What is "Background" option in the scripts?
-
-R: Is a script that will execute its actions even if the Tibia client is not the focused window(in the background, NOT MINIMIZED).
+    - Is a script that will execute its actions even if the Tibia client is not the focused window(in the background, NOT MINIMIZED).
 
 
 - Is it possible to use OldBot in other custom Tibia Clients?
-
-R: Yes, it is possible to use it in any client at any version, but I would probably need to customize/develop some scripts.
+    - Yes, it is possible to use it in any client at any version, but I would probably need to customize/develop some scripts.
 
 
 - How can I request a new funcion or changes?
-
-R: You can contact me via:
-
-Whatsapp: +55(16) 981387250 
-
-Email: amtrosul@hotmail.com
-
-I'm brazilian but I can speak in English.
+    - R: You can contact me via:
+    - Whatsapp: +55(16) 981387250 
+    - Email: amtrosul@hotmail.com
+    - I'm brazilian but I can speak in English.
     
  
