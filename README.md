@@ -14,7 +14,7 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     
 # OldBot features list:
 
-    - *Cavebot* - Development currently stopped due to problems with the looter
+    - *Cavebot* - Development currently stopped
     - Auto Reconnect(even on server save)
     - Login Hotkey(manually login pressing a hotkey)
     - Press hotkey when full mana(train magic level)
@@ -41,7 +41,20 @@ These tools you can use on Real Tibia - they are compiled with your own custom n
     Have ideas of new functions? Tell me!
     
 
+
+
 # FAQ: PT-BR
+
+- Como instalar/usar?
+    - Faça o download de todo o conteúdo do repositório no GitHub clicando no botão verde "Clone/Download",
+    
+    - Extrair os arquivos 
+    
+    - Executar o instalador do AutoHotkey
+    
+    - Abrir o OldBot.exe
+
+
 - Como o OldBot funciona?
 
 R: O OldBot é como um macro, simulando ações do teclado e mouse, funciona basicamente como nós humanos, ao vermos uma imagem na tela, nós reagimos a ela realizando alguma ação, e é exatamente o que a ferramenta faz, por isso é necessário também o cliente do Tibia estar ativo(nas funções que possuem busca de imagens).
