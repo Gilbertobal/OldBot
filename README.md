@@ -1,5 +1,5 @@
 # OldBot for Tibia 11 and below - Do not use on Real Tibia, BattlEye is banning OldBot.
-[Project Status]: development currently stopped due to no motivation to go on :(
+[Project Status]: under development!
 # EN-US: Want a tool to automate some specific tasks? I can make it for you!
 # PT-BR: Quer uma ferramenta para automatizar algunas tarefas específicas? Eu posso fazer isso para você!
 - Other tools:
