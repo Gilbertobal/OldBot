@@ -1,5 +1,8 @@
 What's new?
 --------------------
+Version 2.0 - MAJOR UPDATE! New features(cavebot, autofishing and others)
+- Check the updates on: https://github.com/debbietools/OldBot/projects/8
+--------------------
 Version 1.7 - New features(healer and others):
 - Check the updates on: https://github.com/debbietools/OldBot/projects/6
 --------------------

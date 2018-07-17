@@ -7,7 +7,7 @@ MultiClientLogin:
    LoginMC1:
     {
         Gui, Submit, NoHide
-        Run, %A_ScriptDir%/Scripts/13. Multi Client Login MC1.exe
+        Run, %A_ScriptDir%/Scripts/Multi Client Login MC1.exe
         Return
     }
     SalvarMC1:
@@ -21,7 +21,7 @@ MultiClientLogin:
    LoginMC2:
     {
         Gui, Submit, NoHide
-        Run, %A_ScriptDir%/Scripts/13. Multi Client Login MC2.exe
+        Run, %A_ScriptDir%/Scripts/Multi Client Login MC2.exe
         Return
     }
     SalvarMC2:
@@ -35,7 +35,7 @@ MultiClientLogin:
    LoginMC3:
     {
         Gui, Submit, NoHide
-        Run, %A_ScriptDir%/Scripts/13. Multi Client Login MC3.exe
+        Run, %A_ScriptDir%/Scripts/Multi Client Login MC3.exe
         Return
     }
     SalvarMC3:
@@ -49,7 +49,7 @@ MultiClientLogin:
    LoginMC4:
     {
         Gui, Submit, NoHide
-        Run, %A_ScriptDir%/Scripts/13. Multi Client Login MC4.exe
+        Run, %A_ScriptDir%/Scripts/Multi Client Login MC4.exe
         Return
     }
     SalvarMC4:
@@ -63,7 +63,7 @@ MultiClientLogin:
    LoginMC5:
     {
         Gui, Submit, NoHide
-        Run, %A_ScriptDir%/Scripts/13. Multi Client Login MC5.exe
+        Run, %A_ScriptDir%/Scripts/Multi Client Login MC5.exe
         Return
     }
     SalvarMC5:
