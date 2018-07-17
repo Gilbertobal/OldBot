@@ -72,7 +72,7 @@
     - Step 1: Download the entire repository inside GitHub clicking on the green button "Clone or download"
     - Step 2: Extract the archives
     - Step 3: Run the autohotkey installer
-    = Step 4: Open the OldBot.exe as Admin
+    - Step 4: Open the OldBot.exe as Admin
 - How does OldBot works?
     - The OldBot is like a macro, simulating actions of the keyboard and mouse, it works basically like us humans, when we see an image on the screen, we react doing something, and this is exactly what the tool does, that's why it's needed also that Tibia client must be active(in the functions that works with image search).
 
