@@ -19,13 +19,13 @@
     - Press hotkey when full mana(train magic level)
     - Press hotkeys every determined time
     - Logoff if battle window changes
-    - Auto eat food
+    - Auto eat food (Tibia 11/Tibia 10)
     - Auto Fishing
     - Hold Right Click(use food, walk "bugging" map...)
     - Anti-AFK
     - Life Healer
     - Mana Healer
-    - Remap Hotkeys + Walk with WASD (Gaming Mode)
+    - Remap Hotkeys / Walk with WASD (Gaming Mode)
     - Move item to backpack with hotkey(in the speed of light xD)
     - Move item to ground with hotkey
     - Hotkey Combo(do a combo of selected hotkeys + click)
