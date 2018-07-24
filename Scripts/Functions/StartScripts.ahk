@@ -121,7 +121,7 @@ StartScripts:
         GuiControlGet, MoveItemToBackpack
         If (MoveItemToBackpack = 1)
             {
-                If (MoveItemToBackpackHotkey = %A_Space%)
+                If (MoveItemToBackpackHotkey = "")
                 {
                 MsgBox, Please select a hotkey to run move item to backpack function
                 }Else{
@@ -131,7 +131,7 @@ StartScripts:
         GuiControlGet, MoveItemToGround
         If (MoveItemToGround = 1)
             {
-                If (MoveItemToGroundHotkey = %A_Space%)
+                If (MoveItemToGroundHotkey = "")
                 {
                 MsgBox, Please select a hotkey to run move item to ground function
                 }Else{
@@ -142,11 +142,11 @@ StartScripts:
         If (HotkeyCombo = 1)
             {
                 
-                If (HotkeyComboHotkey1 = %A_Space%)
+                If (HotkeyComboHotkey1 = "")
                 {
                 MsgBox, Hotkey 1 must be chosen to run Hotkey Combo, please select one and try again.
                 }   
-                If (HotkeyComboHotkey1 != %A_Space%)
+                If (HotkeyComboHotkey1 != "")
                 {
                 Run, %A_ScriptDir%/Scripts/Hotkey Combo.exe   
                 }   
@@ -155,7 +155,7 @@ StartScripts:
         GuiControlGet, RingRefill
         If (RingRefill = 1)
             {
-                If (RingRefillHotkey = %A_Space%)
+                If (RingRefillHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run auto equip refill function.
                 }else{
@@ -165,7 +165,7 @@ StartScripts:
         GuiControlGet, AmuletRefill
         If (AmuletRefill = 1)
             {
-                If (AmuletRefillHotkey = %A_Space%)
+                If (AmuletRefillHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run auto equip refill function.
                 }Else{
@@ -175,7 +175,7 @@ StartScripts:
         GuiControlGet, SoftBootsRefill
         If (SoftBootsRefill = 1)
             {
-                If (SoftBootsRefillHotkey = %A_Space%)
+                If (SoftBootsRefillHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run soft boots refill function.
                 }Else{
@@ -185,7 +185,7 @@ StartScripts:
         GuiControlGet, RenewHasteSpell
         If (RenewHasteSpell = 1)
             {
-                If (HasteSpellHotkey = %A_Space%)
+                If (HasteSpellHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run renew haste spell function.
                 } 
@@ -194,7 +194,7 @@ StartScripts:
         GuiControlGet, RenewUtamoVita
         If (RenewUtamoVita = 1)
             {
-                If (UtamoVitaHotkey = %A_Space%)
+                If (UtamoVitaHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run renew utamo vita function.
                 }
@@ -203,7 +203,7 @@ StartScripts:
         GuiControlGet, RenewBuffSpell
         If (RenewBuffSpell = 1)
             {
-                If (BuffSpellHotkey = %A_Space%)
+                If (BuffSpellHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run renew buff spell function.
                 }
