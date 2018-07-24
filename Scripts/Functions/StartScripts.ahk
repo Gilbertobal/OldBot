@@ -145,9 +145,7 @@ StartScripts:
                 If (HotkeyComboHotkey1 = "")
                 {
                 MsgBox, Hotkey 1 must be chosen to run Hotkey Combo, please select one and try again.
-                }   
-                If (HotkeyComboHotkey1 != "")
-                {
+                }else{
                 Run, %A_ScriptDir%/Scripts/Hotkey Combo.exe   
                 }   
             }
@@ -188,8 +186,9 @@ StartScripts:
                 If (HasteSpellHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run renew haste spell function.
-                } 
-            Run, %A_ScriptDir%/Scripts/Renew Haste Spell.exe       
+                }else{
+                    Run, %A_ScriptDir%/Scripts/Renew Haste Spell.exe       
+                }
             }
         GuiControlGet, RenewUtamoVita
         If (RenewUtamoVita = 1)
@@ -197,8 +196,9 @@ StartScripts:
                 If (UtamoVitaHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run renew utamo vita function.
+                }else{
+                    Run, %A_ScriptDir%/Scripts/Renew Utamo Vita.exe       
                 }
-            Run, %A_ScriptDir%/Scripts/Renew Utamo Vita.exe       
             }
         GuiControlGet, RenewBuffSpell
         If (RenewBuffSpell = 1)
@@ -206,13 +206,13 @@ StartScripts:
                 If (BuffSpellHotkey = "")
                 {
                     MsgBox, Please select a hotkey to run renew buff spell function.
+                }else{
+                Run, %A_ScriptDir%/Scripts/Renew Buff Spell.exe       
                 }
-            Run, %A_ScriptDir%/Scripts/Renew Buff Spell.exe       
             }
         GuiControlGet, RefillArrowSlotWithMouse
         If (RefillArrowSlotWithMouse = 1)
             {
-            
             Run, %A_ScriptDir%/Scripts/Refill arrow slot with mouse.exe       
             }
         GuiControlGet, RemoveParalyze
