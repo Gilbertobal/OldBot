@@ -157,14 +157,13 @@ LoadSettings:   ; initial read from settings.ini
                 IniRead, BattleWindow1stPosXCavebot, Cavebot\cavebotsettings.ini, settings, BattleWindow1stPosXCavebot, %A_Space%
                 IniRead, BattleWindow1stPosYCavebot, Cavebot\cavebotsettings.ini, settings, BattleWindow1stPosYCavebot, %A_Space%
                 IniRead, BattleWindowClickDelay, Cavebot\cavebotsettings.ini, settings, BattleWindowClickDelay, 2000
-
+                IniRead, ClickAroundToLoot, Cavebot\cavebotsettings.ini, settings, ClickAroundToLoot, 0
             ; Cavebot Waypoints
                 IniRead, Action1WP1, Cavebot\cavebotsettings.ini, settings, Action1WP1, Nothing
                 IniRead, Action2WP1, Cavebot\cavebotsettings.ini, settings, Action2WP1, %A_Space%
                 IniRead, SleepWP1, Cavebot\cavebotsettings.ini, settings, SleepWP1, %A_Space%
                 IniRead, CheckBattleWP1, Cavebot\cavebotsettings.ini, settings, CheckBattleWP1, 0
                 IniRead, EnableWP1, Cavebot\cavebotsettings.ini, settings, EnableWP1,
-                    
 
                 IniRead, Action1WP2, Cavebot\cavebotsettings.ini, settings, Action1WP2, Nothing
                 IniRead, Action2WP2, Cavebot\cavebotsettings.ini, settings, Action2WP2, %A_Space%
