@@ -3,7 +3,7 @@
 # EN-US: Want a tool to automate some specific tasks? I can make it for you!
 # PT-BR: Quer uma ferramenta para automatizar algunas tarefas específicas? Eu posso fazer isso para você!
 - Other tools:
-    - These tools you can use safely on Real Tibia - they are compiled with your own custom name to avoid ban, contact me for more info:
+    - These tools you can use safer on Real Tibia - they are compiled with your own custom name to avoid ban, contact me for more info:
         - Slime Trainer(or other creatures)
         - Health/Mana Healer
         - Auto Reconnect(even on server save)
