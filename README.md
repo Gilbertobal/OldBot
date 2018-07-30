@@ -19,20 +19,21 @@
     - Press hotkey when full mana(train magic level)
     - Press hotkeys every determined time
     - Logoff if battle window changes
-    - Auto eat food (Tibia 11/Tibia 10)
+    - Auto eat food [Tibia 10/11+]
     - Auto Fishing
     - Hold Right Click(use food, walk "bugging" map...)
     - Anti-AFK
     - Life Healer
     - Mana Healer
     - Remap Hotkeys / Walk with WASD (Gaming Mode)
-    - Move item to backpack with hotkey(in the speed of light xD)
-    - Move item to ground with hotkey
+    - Move items with hotkey(in the speed of light xD):
+        - Move item to backpack
+        - Move item to ground
     - Hotkey Combo(do a combo of selected hotkeys + click)
     - Auto refill Rings, Amulets & Soft Boots(may not work on all Tibia version below 10)
     - Auto refill ammunition - through mouse move(from ground/backpack) or through hotkey(timer tools)
-    - Renew Haste & support spells, Utamo Vita, party spells
-    - Remove Paralyze
+    - Renew Haste & support spells, Utamo Vita, party spells [Tibia 10/11+]
+    - Remove Paralyze [Tibia 10/11+]
     - Reopen Tibia Client automatically when closed
     - Hide/unhide Tibia Client
     - Multi Client Login - perform login on up to 5 accounts each with one click
