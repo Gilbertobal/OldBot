@@ -13,32 +13,31 @@
     
 # OldBot features list:
 
-    - *Cavebot* - Developing [BETA on OldBot v2.0+]
-    - Auto Reconnect(even on server save)
-    - Login Hotkey(manually login pressing a hotkey)
-    - Press hotkey when full mana(train magic level)
-    - Press hotkeys every determined time
-    - Logoff if battle window changes
-    - Auto eat food [Tibia 10/11+]
-    - Auto Fishing
-    - Hold Right Click(use food, walk "bugging" map...)
-    - Anti-AFK
-    - Life Healer
-    - Mana Healer
-    - Remap Hotkeys / Walk with WASD (Gaming Mode)
-    - Move items with hotkey(in the speed of light xD):
-        - Move item to backpack
-        - Move item to ground
-    - Hotkey Combo(do a combo of selected hotkeys + click)
-    - Auto refill Rings, Amulets & Soft Boots(may not work on all Tibia version below 10)
-    - Auto refill ammunition - through mouse move(from ground/backpack) or through hotkey(timer tools)
-    - Renew Haste & support spells, Utamo Vita, party spells [Tibia 10/11+]
-    - Remove Paralyze [Tibia 10/11+]
-    - Reopen Tibia Client automatically when closed
-    - Hide/unhide Tibia Client
-    - Multi Client Login - perform login on up to 5 accounts each with one click
-    - Make any window transparent
-    - Cronometer - tool to count the delay of spells/runes on screen 
+- *Cavebot* - Developing [BETA on OldBot v2.0+]
+- Auto Reconnect(even on server save)
+- Login Hotkey(manually login pressing a hotkey)
+- Press hotkey when full mana(train magic level)
+- Press hotkeys every determined time
+- Logoff if battle window changes
+- Auto eat food [Tibia 10/11+]
+- Auto Fishing
+- Hold Right Click(use food, walk "bugging" map...)
+- Anti-AFK
+- Life Healer
+- Mana Healer
+- Move items with hotkey(in the speed of light xD):
+    - Move item to backpack
+    - Move item to ground
+- Hotkey Combo(do a combo of selected hotkeys + click)
+- Auto refill Rings, Amulets & Soft Boots(may not work on all Tibia version below 10)
+- Auto refill ammunition - through mouse move(from ground/backpack) or through hotkey(timer tools)
+- Renew Haste & support spells, Utamo Vita, party spells [Tibia 10/11+]
+- Remove Paralyze [Tibia 10/11+]
+- Reopen Tibia Client automatically when closed
+- Hide/unhide Tibia Client
+- Multi Client Login - perform login on up to 5 accounts each with one click
+- Make any window transparent
+- Cronometer - tool to count the delay of spells/runes on screen 
     Have ideas of new functions or how to upgrade an existing one? Tell me! I'm always opened to ideas.
     
 
